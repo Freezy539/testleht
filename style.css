@@ -514,6 +514,22 @@ nav {
   height:auto;
   align-self:start
 }
+.towing-info {
+  border-left:3px solid var(--wood);
+  padding:2px 0 2px 12px;
+  color:var(--muted);
+}
+.towing-info strong {
+  display:block;
+  color:#53341f;
+  font-size:14px;
+}
+.towing-info small {
+  display:block;
+  margin-top:3px;
+  font-size:12px;
+  line-height:1.5;
+}
 .price {
   font-size:28px;
   font-weight:950;
