@@ -23,7 +23,7 @@
 <meta content="https://outdoorsauna.ee/assets/ovaal/ovaal1.webp" property="og:image"/>
 <link href="https://outdoorsauna.ee/" rel="canonical"/>
 <title data-i18n="meta_title">OutDoorSauna | Toru-, ovaal- ja kandilised saunad</title>
-<link href="style.css?v=20261014-model-layout" rel="stylesheet"/>
+<link href="style.css?v=20261014-model-notes" rel="stylesheet"/>
 <link rel="preload" as="image" href="assets/ovaalsaun-valmis.webp" fetchpriority="high"/>
 <link rel="icon" href="assets/favicon.ico">
 </head>
@@ -401,6 +401,7 @@
 <select name="model">
 <option data-i18n="opt_barrel">1-ruumiline torusaun</option>
 <option data-i18n="opt_oval">2-ruumiline torusaun</option>
+<option data-i18n="detail_variant30Form">2-ruumiline torusaun · 3,0 m</option>
 <option data-i18n="opt_square">2-ruumiline ovaalsaun</option>
 <option data-i18n="opt_trailer">Haagisel torusaun</option>
 <option data-i18n="product3_title">Terrassiga torusaun</option>
@@ -433,13 +434,9 @@
 <section class="page model-page" id="model-2toru">
 <div class="model-shell">
 <button class="model-back" type="button" onclick="showPage('products')">← <span data-i18n="back_to_models">Tagasi valikusse</span></button>
-<div class="model-layout"><div class="model-intro"><div class="badge" data-i18n="product1_badge">Populaarne</div><h1 data-i18n="product1_title">2-ruumiline torusaun</h1><p data-i18n="product1_text">Ruumikas torusaun praktilise eesruumi ja leiliruumiga. Sobib hästi perele või sõprade seltskonnale.</p><div class="specs">
-<span data-i18n="spec1_1">📏 3.8 m × 2.1 m</span>
-<span data-i18n="spec1_2">🔥 Keris Harvia M3</span>
-<span data-i18n="spec_water">💧 35L veepaak</span>
-<span data-i18n="spec1_4">🚪 Lukustatav välisuks</span>
-</div></div>
-<div class="model-photos"><div class="product-carousel" data-alt="2-ruumiline torusaun" data-images="assets/2toru/2toru1.webp|assets/2toru/2toru2.webp|assets/2toru/2toru3.webp|assets/2toru/2toru4.webp|assets/2toru/2toru5.webp|assets/2toru/2toru6.webp|assets/2toru/2toru7.webp|assets/2toru/2toru8.webp|assets/2toru/2toru9.webp|assets/2toru/2toru10.webp">
+<div class="model-layout has-variants"><div class="model-intro"><div class="badge" data-i18n="product1_badge">Populaarne</div><h1 data-i18n="product1_title">2-ruumiline torusaun</h1><p data-i18n="product1_text">Ruumikas torusaun praktilise eesruumi ja leiliruumiga. Sobib hästi perele või sõprade seltskonnale.</p><div class="specs" id="variant-specs"><span data-i18n="detail_dimensions38">Pikkus 3,8 m · kõrgus 2,1 m</span><span data-i18n="detail_thermo40">40 mm termomänd · otsaseinad 26 mm</span><span data-i18n="detail_tank">35 l roostevabast terasest veepaak</span><span data-i18n="detail_m3">Harvia M3 puukeris ja kerisekivid</span></div></div>
+<div class="variant-picker" role="group" aria-label="Vali lahendus" data-i18n-aria-label="detail_choose"><p data-i18n="detail_choose">Vali lahendus</p><div class="variant-buttons"><button class="variant-button selected" type="button" aria-pressed="true" data-variant="0" onclick="selectModelVariant(0)"><span data-i18n="detail_variant38">3,8 m · termomänd</span><strong>4500 € <span data-i18n="vat">+ KM</span></strong></button><button class="variant-button" type="button" aria-pressed="false" data-variant="1" onclick="selectModelVariant(1)"><span data-i18n="detail_variant30">3,0 m · kahe ruumiga</span><strong>3600 € <span data-i18n="vat">+ KM</span></strong></button></div></div><nav class="model-section-links" aria-label="Lisainfo" data-i18n-aria-label="more_info"><a href="#photos-2toru" data-i18n="nav_gallery">Galerii</a><a href="#details-2toru" data-i18n="model_information">Mudeli lisainfo</a></nav>
+<div class="model-photos" id="photos-2toru"><div class="product-carousel" data-alt="2-ruumiline torusaun" data-images="assets/2toru/2toru1.webp|assets/2toru/2toru2.webp|assets/2toru/2toru3.webp|assets/2toru/2toru4.webp|assets/2toru/2toru5.webp|assets/2toru/2toru6.webp|assets/2toru/2toru7.webp|assets/2toru/2toru8.webp|assets/2toru/2toru9.webp|assets/2toru/2toru10.webp">
 <button aria-label="Eelmine pilt" class="carousel-arrow prev" data-i18n-aria-label="prev_image" type="button">‹</button>
 <img alt="2-ruumiline torusaun" class="product-main-img" loading="lazy" src="assets/2toru/2toru1.webp"/>
 <button aria-label="Järgmine pilt" class="carousel-arrow next" data-i18n-aria-label="next_image" type="button">›</button>
@@ -453,14 +450,15 @@
 <button type="button" onclick="selectModelImage('2toru', 7)" aria-label="8"><img src="assets/2toru/2toru8.webp" loading="lazy" alt=""/></button>
 <button type="button" onclick="selectModelImage('2toru', 8)" aria-label="9"><img src="assets/2toru/2toru9.webp" loading="lazy" alt=""/></button>
 <button type="button" onclick="selectModelImage('2toru', 9)" aria-label="10"><img src="assets/2toru/2toru10.webp" loading="lazy" alt=""/></button></div></div>
-<aside class="model-summary"><h2 data-i18n="ask_offer">Küsi pakkumist</h2><p data-i18n="model_information_text">Sauna mõõdud ja varustus on toodud ülal. Küsi pakkumist, et arutada sobivat lahendust ja lisavõimalusi.</p><div class="price">4500€ <span class="vat" data-i18n="vat">+ KM</span></div><button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('2toru')">Küsi pakkumist</button></aside>
+<aside class="model-summary"><h2 data-i18n="detail_quote">Küsi selle sauna pakkumist</h2><p data-i18n="detail_quoteText">Räägi meile oma soovidest. Täpsustame viimistluse, lisavarustuse ja transpordi sinu pakkumises.</p><div class="price"><span id="variant-price">4500€</span> <span class="vat" data-i18n="vat">+ KM</span></div><button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('2toru')">Küsi pakkumist</button></aside>
 </div>
-<div class="model-information"><div><h2 data-i18n="model_information">Mudeli lisainfo</h2><p data-i18n="product1_text">Ruumikas torusaun praktilise eesruumi ja leiliruumiga. Sobib hästi perele või sõprade seltskonnale.</p></div><div class="model-facts"><div class="specs">
-<span data-i18n="spec1_1">📏 3.8 m × 2.1 m</span>
-<span data-i18n="spec1_2">🔥 Keris Harvia M3</span>
-<span data-i18n="spec_water">💧 35L veepaak</span>
-<span data-i18n="spec1_4">🚪 Lukustatav välisuks</span>
-</div></div></div>
+<div class="model-information" id="details-2toru"><div class="details-section-heading"><span class="eyebrow" data-i18n="more_info">Lisainfo</span><h2 data-i18n="model_information">Mudeli lisainfo</h2></div><div class="detail-grid" data-detail-variant="0"><article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🌲</span><h3 data-i18n="detail_materials">Materjal ja viimistlus</h3></div><ul class="detail-list"><li data-i18n="detail_thermo40">40 mm termomänd · otsaseinad 26 mm</li><li data-i18n="detail_alderBench">Lepast lavalauad</li><li data-i18n="detail_icopal">Icopali katusekate</li><li data-i18n="detail_glass">Karastatud pronksitooni ukse- ja aknaklaasid</li><li data-i18n="detail_bands">Roostevabast terasest pingutusvitsad</li><li data-i18n="detail_glued">Liimpuidust lukustatav välisuks · 3 võtit</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🔥</span><h3 data-i18n="detail_included">Komplektis</h3></div><ul class="detail-list"><li data-i18n="detail_m3">Harvia M3 puukeris ja kerisekivid</li><li data-i18n="detail_chimney">Isoleeritud roostevabast terasest korsten</li><li data-i18n="detail_tank">35 l roostevabast terasest veepaak</li><li data-i18n="detail_lock">Lukustatav välisuks · kaasas 3 võtit</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">✦</span><h3 data-i18n="detail_options">Lisavõimalused</h3></div><ul class="detail-list"><li data-i18n="detail_custom">Mõõdud ja lahendus vastavalt sinu soovidele</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🚚</span><h3 data-i18n="detail_delivery">Tarne ja transport</h3></div><ul class="detail-list"><li data-i18n="detail_brown">Kohe olemas · pruun välisviimistlus</li><li data-i18n="detail_assembled">Tarnitakse täielikult kokkupanduna</li><li data-i18n="detail_transport">Transport üle Eesti kokkuleppel, lisatasu eest</li><li data-i18n="detail_pickup">Võimalik ise järele tulla; aitame kohapeal peale tõsta</li><li data-i18n="detail_reola">Asume Reolas, Tartu lähedal</li></ul></article></div><div class="detail-grid" data-detail-variant="1" hidden><article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🌲</span><h3 data-i18n="detail_materials">Materjal ja viimistlus</h3></div><ul class="detail-list"><li data-i18n="detail_alder">Lepast lavalauad ja põrandarestid</li><li data-i18n="detail_glassPlain">Karastatud klaasiga uksed ja aknad</li><li data-i18n="detail_bands">Roostevabast terasest pingutusvitsad</li><li data-i18n="detail_finish">Välisviimistlus tehtud</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🔥</span><h3 data-i18n="detail_included">Komplektis</h3></div><ul class="detail-list"><li data-i18n="detail_m3">Harvia M3 puukeris ja kerisekivid</li><li data-i18n="detail_tank">35 l roostevabast terasest veepaak</li><li data-i18n="detail_chimney">Isoleeritud roostevabast terasest korsten</li><li data-i18n="detail_lock">Lukustatav välisuks · kaasas 3 võtit</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">✦</span><h3 data-i18n="detail_options">Lisavõimalused</h3></div><ul class="detail-list"><li data-i18n="detail_custom">Mõõdud ja lahendus vastavalt sinu soovidele</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🚚</span><h3 data-i18n="detail_delivery">Tarne ja transport</h3></div><ul class="detail-list"><li data-i18n="detail_assembled">Tarnitakse täielikult kokkupanduna</li><li data-i18n="detail_transport">Transport üle Eesti kokkuleppel, lisatasu eest</li><li data-i18n="detail_pickup">Võimalik ise järele tulla; aitame kohapeal peale tõsta</li><li data-i18n="detail_reola">Asume Reolas, Tartu lähedal</li></ul></article></div></div>
 </div>
 </section>
 <section class="page model-page" id="model-ovaal">
@@ -472,7 +470,8 @@
 <span data-i18n="spec_water">💧 35L veepaak</span>
 <span data-i18n="spec2_4">🌲 Kuusepuust või termopuidust</span>
 </div></div>
-<div class="model-photos"><div class="product-carousel" data-alt="2-ruumiline ovaalsaun" data-images="assets/ovaal/ovaal1.webp|assets/ovaal/ovaal2.webp|assets/ovaal/ovaal3.webp|assets/ovaal/ovaal4.webp|assets/ovaal/ovaal5.webp|assets/ovaal/ovaal6.webp|assets/ovaal/ovaal7.webp|assets/ovaal/ovaal8.webp|assets/ovaal/ovaal9.webp|assets/ovaal/ovaal10.webp">
+<nav class="model-section-links" aria-label="Lisainfo" data-i18n-aria-label="more_info"><a href="#photos-ovaal" data-i18n="nav_gallery">Galerii</a><a href="#details-ovaal" data-i18n="model_information">Mudeli lisainfo</a></nav>
+<div class="model-photos" id="photos-ovaal"><div class="product-carousel" data-alt="2-ruumiline ovaalsaun" data-images="assets/ovaal/ovaal1.webp|assets/ovaal/ovaal2.webp|assets/ovaal/ovaal3.webp|assets/ovaal/ovaal4.webp|assets/ovaal/ovaal5.webp|assets/ovaal/ovaal6.webp|assets/ovaal/ovaal7.webp|assets/ovaal/ovaal8.webp|assets/ovaal/ovaal9.webp|assets/ovaal/ovaal10.webp">
 <button aria-label="Eelmine pilt" class="carousel-arrow prev" data-i18n-aria-label="prev_image" type="button">‹</button>
 <img alt="2-ruumiline ovaalsaun" loading="lazy" src="assets/ovaal/ovaal1.webp"/>
 <button aria-label="Järgmine pilt" class="carousel-arrow next" data-i18n-aria-label="next_image" type="button">›</button>
@@ -486,14 +485,12 @@
 <button type="button" onclick="selectModelImage('ovaal', 7)" aria-label="8"><img src="assets/ovaal/ovaal8.webp" loading="lazy" alt=""/></button>
 <button type="button" onclick="selectModelImage('ovaal', 8)" aria-label="9"><img src="assets/ovaal/ovaal9.webp" loading="lazy" alt=""/></button>
 <button type="button" onclick="selectModelImage('ovaal', 9)" aria-label="10"><img src="assets/ovaal/ovaal10.webp" loading="lazy" alt=""/></button></div></div>
-<aside class="model-summary"><h2 data-i18n="ask_offer">Küsi pakkumist</h2><p data-i18n="model_information_text">Sauna mõõdud ja varustus on toodud ülal. Küsi pakkumist, et arutada sobivat lahendust ja lisavõimalusi.</p><div class="price">4600€ <span class="vat" data-i18n="vat">+ KM</span></div><button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('ovaal')">Küsi pakkumist</button></aside>
+<aside class="model-summary"><h2 data-i18n="detail_quote">Küsi selle sauna pakkumist</h2><p data-i18n="detail_quoteText">Räägi meile oma soovidest. Täpsustame viimistluse, lisavarustuse ja transpordi sinu pakkumises.</p><div class="price">4600€ <span class="vat" data-i18n="vat">+ KM</span></div><button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('ovaal')">Küsi pakkumist</button></aside>
 </div>
-<div class="model-information"><div><h2 data-i18n="model_information">Mudeli lisainfo</h2><p data-i18n="product2_text">Hea disainiga ovaalsaun, millel on praktiline eesruum ja mugav leiliruum.</p></div><div class="model-facts"><div class="specs">
-<span data-i18n="spec2_1">📏 4 m × 2.4 m</span>
-<span data-i18n="spec2_2">🪵 Lepast lavad</span>
-<span data-i18n="spec_water">💧 35L veepaak</span>
-<span data-i18n="spec2_4">🌲 Kuusepuust või termopuidust</span>
-</div></div></div>
+<div class="model-information" id="details-ovaal"><div class="details-section-heading"><span class="eyebrow" data-i18n="more_info">Lisainfo</span><h2 data-i18n="model_information">Mudeli lisainfo</h2></div><div class="detail-grid" data-detail-variant="0"><article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🌲</span><h3 data-i18n="detail_materials">Materjal ja viimistlus</h3></div><ul class="detail-list"><li data-i18n="detail_spruce">Kuusepuust saunakorpus</li><li data-i18n="detail_alderSeat">Lepast lavad, istumispink ja põrandarestid</li><li data-i18n="detail_finish">Välisviimistlus tehtud</li><li data-i18n="detail_shingles">Kärgruberoidist katus · värv sinu valikul</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🔥</span><h3 data-i18n="detail_included">Komplektis</h3></div><ul class="detail-list"><li data-i18n="detail_heaterChoice">Harvia M3 või Stoveman 13M puukeris koos kividega</li><li data-i18n="detail_tank">35 l roostevabast terasest veepaak</li><li data-i18n="detail_chimney">Isoleeritud roostevabast terasest korsten</li><li data-i18n="detail_fire">Tulekindlad kaitseplaadid</li><li data-i18n="detail_saunaDoor">Karastatud pronksitooni klaasuks leiliruumis</li><li data-i18n="detail_lock">Lukustatav välisuks · kaasas 3 võtit</li><li data-i18n="detail_vents3">3 ventilatsiooniava · neist 2 reguleeritavad</li><li data-i18n="detail_bucket">Saunakibu ja kulp</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">✦</span><h3 data-i18n="detail_options">Lisavõimalused</h3></div><ul class="detail-list"><li data-i18n="detail_electric">Võimalik tellida elektriküttega</li><li data-i18n="detail_thermoOption">Saadaval ka termopuidust variant</li><li data-i18n="detail_custom">Mõõdud ja lahendus vastavalt sinu soovidele</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🚚</span><h3 data-i18n="detail_delivery">Tarne ja transport</h3></div><ul class="detail-list"><li data-i18n="detail_darkBrown">Kohe olemas 1 tk · tumepruun välisviimistlus</li><li data-i18n="detail_assembled">Tarnitakse täielikult kokkupanduna</li><li data-i18n="detail_transport">Transport üle Eesti kokkuleppel, lisatasu eest</li><li data-i18n="detail_reola">Asume Reolas, Tartu lähedal</li></ul></article></div></div>
 </div>
 </section>
 <section class="page model-page" id="model-terass">
@@ -505,7 +502,8 @@
 <span data-i18n="spec3_3">🔥 Võimalik valida seest või väljast köetav keris</span>
 <span data-i18n="spec3_4">📏 2,5 m × 2,1 m</span>
 </div></div>
-<div class="model-photos"><div class="product-carousel" data-alt="Terrassiga torusaun" data-images="assets/terass/terass1.webp|assets/terass/terass2.webp|assets/terass/terass3.webp|assets/terass/terass4.webp|assets/terass/terass5.webp">
+<nav class="model-section-links" aria-label="Lisainfo" data-i18n-aria-label="more_info"><a href="#photos-terass" data-i18n="nav_gallery">Galerii</a><a href="#details-terass" data-i18n="model_information">Mudeli lisainfo</a></nav>
+<div class="model-photos" id="photos-terass"><div class="product-carousel" data-alt="Terrassiga torusaun" data-images="assets/terass/terass1.webp|assets/terass/terass2.webp|assets/terass/terass3.webp|assets/terass/terass4.webp|assets/terass/terass5.webp">
 <button aria-label="Eelmine pilt" class="carousel-arrow prev" data-i18n-aria-label="prev_image" type="button">‹</button>
 <img alt="Terrassiga torusaun" loading="lazy" src="assets/terass/terass1.webp"/>
 <button aria-label="Järgmine pilt" class="carousel-arrow next" data-i18n-aria-label="next_image" type="button">›</button>
@@ -514,14 +512,12 @@
 <button type="button" onclick="selectModelImage('terass', 2)" aria-label="3"><img src="assets/terass/terass3.webp" loading="lazy" alt=""/></button>
 <button type="button" onclick="selectModelImage('terass', 3)" aria-label="4"><img src="assets/terass/terass4.webp" loading="lazy" alt=""/></button>
 <button type="button" onclick="selectModelImage('terass', 4)" aria-label="5"><img src="assets/terass/terass5.webp" loading="lazy" alt=""/></button></div></div>
-<aside class="model-summary"><h2 data-i18n="ask_offer">Küsi pakkumist</h2><p data-i18n="model_information_text">Sauna mõõdud ja varustus on toodud ülal. Küsi pakkumist, et arutada sobivat lahendust ja lisavõimalusi.</p><div class="price">3300–3400€ <span class="vat" data-i18n="vat">+ KM</span></div><button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('terass')">Küsi pakkumist</button></aside>
+<aside class="model-summary"><h2 data-i18n="detail_quote">Küsi selle sauna pakkumist</h2><p data-i18n="detail_quoteText">Räägi meile oma soovidest. Täpsustame viimistluse, lisavarustuse ja transpordi sinu pakkumises.</p><div class="price">3300–3400€ <span class="vat" data-i18n="vat">+ KM</span></div><button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('terass')">Küsi pakkumist</button></aside>
 </div>
-<div class="model-information"><div><h2 data-i18n="model_information">Mudeli lisainfo</h2><p data-i18n="product3_text">Kompaktne termopuidust torusaun väiksemasse aeda, veekogu äärde või haagisele paigaldamiseks.</p></div><div class="model-facts"><div class="specs">
-<span data-i18n="spec3_1">🏕 Sobib ideaalselt haagisele</span>
-<span data-i18n="spec3_2">🪵 Valmistatud termopuidust</span>
-<span data-i18n="spec3_3">🔥 Võimalik valida seest või väljast köetav keris</span>
-<span data-i18n="spec3_4">📏 2,5 m × 2,1 m</span>
-</div></div></div>
+<div class="model-information" id="details-terass"><div class="details-section-heading"><span class="eyebrow" data-i18n="more_info">Lisainfo</span><h2 data-i18n="model_information">Mudeli lisainfo</h2></div><div class="detail-grid" data-detail-variant="0"><article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🌲</span><h3 data-i18n="detail_materials">Materjal ja viimistlus</h3></div><ul class="detail-list"><li data-i18n="detail_thermo">Termopuidust saunakorpus</li><li data-i18n="detail_alder">Lepast lavalauad ja põrandarestid</li><li data-i18n="detail_icopal">Icopali katusekate</li><li data-i18n="detail_bands">Roostevabast terasest pingutusvitsad</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🔥</span><h3 data-i18n="detail_included">Komplektis</h3></div><ul class="detail-list"><li data-i18n="detail_terrace">Sauna ees terrass koos pinkidega</li><li data-i18n="detail_m3">Harvia M3 puukeris ja kerisekivid</li><li data-i18n="detail_chimney">Isoleeritud roostevabast terasest korsten</li><li data-i18n="detail_vents">Ventilatsioonirestid</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">✦</span><h3 data-i18n="detail_options">Lisavõimalused</h3></div><ul class="detail-list"><li data-i18n="detail_external">Väljast köetav keris +150 €</li><li data-i18n="detail_tankExtra">Veepaak lisavalikuna +150 €</li><li data-i18n="detail_electric">Võimalik tellida elektriküttega</li><li data-i18n="detail_noHeater">Võimalik tellida ilma keriseta</li><li data-i18n="detail_led">LED-valgustuse võimalus</li><li data-i18n="detail_custom">Mõõdud ja lahendus vastavalt sinu soovidele</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🚚</span><h3 data-i18n="detail_delivery">Tarne ja transport</h3></div><ul class="detail-list"><li data-i18n="detail_assembled">Tarnitakse täielikult kokkupanduna</li><li data-i18n="detail_transport">Transport üle Eesti kokkuleppel, lisatasu eest</li><li data-i18n="detail_crane">Võimalik kraanaautoga transport · küsi pakkumist</li><li data-i18n="detail_reola">Asume Reolas, Tartu lähedal</li></ul></article></div></div>
 </div>
 </section>
 <section class="page model-page" id="model-1toru">
@@ -531,9 +527,10 @@
 <span data-i18n="spec4_1">🚚 Katusekatteks kvaliteetne Icopal</span>
 <span data-i18n="spec4_2">🎨 Soovi korral saab ka enda valitud mõõdus</span>
 <span data-i18n="spec4_3">⚡ Pingutusvitsad on roostevabast terasest</span>
-<span data-i18n="spec4_4">📐 2,1 m x 2 m</span>
+<span data-i18n="detail_dimensions1">Pikkus 2,0 m · kõrgus 2,1 m</span>
 </div></div>
-<div class="model-photos"><div class="product-carousel" data-alt="1-ruumiline torusaun" data-images="assets/1toru/1toru1.webp|assets/1toru/1toru2.webp|assets/1toru/1toru3.webp|assets/1toru/1toru4.webp|assets/1toru/1toru5.webp|assets/1toru/1toru6.webp|assets/1toru/1toru7.webp|assets/1toru/1toru8.webp|assets/1toru/1toru9.webp|assets/1toru/1toru10.webp|assets/1toru/1toru11.webp">
+<nav class="model-section-links" aria-label="Lisainfo" data-i18n-aria-label="more_info"><a href="#photos-1toru" data-i18n="nav_gallery">Galerii</a><a href="#details-1toru" data-i18n="model_information">Mudeli lisainfo</a></nav>
+<div class="model-photos" id="photos-1toru"><div class="product-carousel" data-alt="1-ruumiline torusaun" data-images="assets/1toru/1toru1.webp|assets/1toru/1toru2.webp|assets/1toru/1toru3.webp|assets/1toru/1toru4.webp|assets/1toru/1toru5.webp|assets/1toru/1toru6.webp|assets/1toru/1toru7.webp|assets/1toru/1toru8.webp|assets/1toru/1toru9.webp|assets/1toru/1toru10.webp|assets/1toru/1toru11.webp">
 <button aria-label="Eelmine pilt" class="carousel-arrow prev" data-i18n-aria-label="prev_image" type="button">‹</button>
 <img alt="1-ruumiline torusaun" loading="lazy" src="assets/1toru/1toru1.webp"/>
 <button aria-label="Järgmine pilt" class="carousel-arrow next" data-i18n-aria-label="next_image" type="button">›</button>
@@ -548,14 +545,12 @@
 <button type="button" onclick="selectModelImage('1toru', 8)" aria-label="9"><img src="assets/1toru/1toru9.webp" loading="lazy" alt=""/></button>
 <button type="button" onclick="selectModelImage('1toru', 9)" aria-label="10"><img src="assets/1toru/1toru10.webp" loading="lazy" alt=""/></button>
 <button type="button" onclick="selectModelImage('1toru', 10)" aria-label="11"><img src="assets/1toru/1toru11.webp" loading="lazy" alt=""/></button></div></div>
-<aside class="model-summary"><h2 data-i18n="ask_offer">Küsi pakkumist</h2><p data-i18n="model_information_text">Sauna mõõdud ja varustus on toodud ülal. Küsi pakkumist, et arutada sobivat lahendust ja lisavõimalusi.</p><div class="price">3000€ <span class="vat" data-i18n="vat">+ KM</span></div><button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('1toru')">Küsi pakkumist</button></aside>
+<aside class="model-summary"><h2 data-i18n="detail_quote">Küsi selle sauna pakkumist</h2><p data-i18n="detail_quoteText">Räägi meile oma soovidest. Täpsustame viimistluse, lisavarustuse ja transpordi sinu pakkumises.</p><div class="price">3000€ <span class="vat" data-i18n="vat">+ KM</span></div><button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('1toru')">Küsi pakkumist</button></aside>
 </div>
-<div class="model-information"><div><h2 data-i18n="model_information">Mudeli lisainfo</h2><p data-i18n="product4_text">Kompaktne 1-ruumiline torusaun neile, kes soovivad lihtsat ja praktilist lahendust koduhoovi, suvilasse või veekogu äärde.</p></div><div class="model-facts"><div class="specs">
-<span data-i18n="spec4_1">🚚 Katusekatteks kvaliteetne Icopal</span>
-<span data-i18n="spec4_2">🎨 Soovi korral saab ka enda valitud mõõdus</span>
-<span data-i18n="spec4_3">⚡ Pingutusvitsad on roostevabast terasest</span>
-<span data-i18n="spec4_4">📐 2,1 m x 2 m</span>
-</div></div></div>
+<div class="model-information" id="details-1toru"><div class="details-section-heading"><span class="eyebrow" data-i18n="more_info">Lisainfo</span><h2 data-i18n="model_information">Mudeli lisainfo</h2></div><div class="detail-grid" data-detail-variant="0"><article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🌲</span><h3 data-i18n="detail_materials">Materjal ja viimistlus</h3></div><ul class="detail-list"><li data-i18n="detail_spruce40">40 mm kuusepuit · otsaseinad 28 mm</li><li data-i18n="detail_alder28">28 mm lepast lava ja põrandarest</li><li data-i18n="detail_glass">Karastatud pronksitooni ukse- ja aknaklaasid</li><li data-i18n="detail_colour">Välisviimistlus kliendi valitud toonis</li><li data-i18n="detail_icopal">Icopali katusekate</li><li data-i18n="detail_bands">Roostevabast terasest pingutusvitsad</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🔥</span><h3 data-i18n="detail_included">Komplektis</h3></div><ul class="detail-list"><li data-i18n="detail_m3">Harvia M3 puukeris ja kerisekivid</li><li data-i18n="detail_chimney">Isoleeritud roostevabast terasest korsten</li><li data-i18n="detail_vents">Ventilatsioonirestid</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">✦</span><h3 data-i18n="detail_options">Lisavõimalused</h3></div><ul class="detail-list"><li data-i18n="detail_external">Väljast köetav keris +150 €</li><li data-i18n="detail_tankExtra">Veepaak lisavalikuna +150 €</li><li data-i18n="detail_electric">Võimalik tellida elektriküttega</li><li data-i18n="detail_noHeater">Võimalik tellida ilma keriseta</li><li data-i18n="detail_thermoOption">Saadaval ka termopuidust variant</li><li data-i18n="detail_led">LED-valgustuse võimalus</li><li data-i18n="detail_lengthRange">Tellitav pikkus 1,6–2,4 m; võimalikud ka erimõõdud</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🚚</span><h3 data-i18n="detail_delivery">Tarne ja transport</h3></div><ul class="detail-list"><li data-i18n="detail_seven">Valmistatakse tellimuse peale · tarne 7 tööpäeva</li><li data-i18n="detail_assembled">Tarnitakse täielikult kokkupanduna</li><li data-i18n="detail_trailerWidth">Sobib haagisele laiusega 1500 mm</li><li data-i18n="detail_crane">Võimalik kraanaautoga transport · küsi pakkumist</li><li data-i18n="detail_reola">Asume Reolas, Tartu lähedal</li></ul></article></div></div>
 </div>
 </section>
 <section class="page model-page" id="model-haagisel">
@@ -567,7 +562,8 @@
 <span data-i18n="spec5_3">🔥 Harvia M3 puukeris</span>
 <span data-i18n="spec5_4">📏 2,4 m × 2,2 m</span>
 </div></div>
-<div class="model-photos"><div class="product-carousel" data-alt="Haagisel torusaun" data-images="assets/haagisel/haagisel1.webp|assets/haagisel/haagisel2.webp|assets/haagisel/haagisel3.webp|assets/haagisel/haagisel4.webp|assets/haagisel/haagisel5.webp|assets/haagisel/haagisel6.webp|assets/haagisel/haagisel7.webp|assets/haagisel/haagisel8.webp">
+<nav class="model-section-links" aria-label="Lisainfo" data-i18n-aria-label="more_info"><a href="#photos-haagisel" data-i18n="nav_gallery">Galerii</a><a href="#details-haagisel" data-i18n="model_information">Mudeli lisainfo</a></nav>
+<div class="model-photos" id="photos-haagisel"><div class="product-carousel" data-alt="Haagisel torusaun" data-images="assets/haagisel/haagisel1.webp|assets/haagisel/haagisel2.webp|assets/haagisel/haagisel3.webp|assets/haagisel/haagisel4.webp|assets/haagisel/haagisel5.webp|assets/haagisel/haagisel6.webp|assets/haagisel/haagisel7.webp|assets/haagisel/haagisel8.webp">
 <button aria-label="Eelmine pilt" class="carousel-arrow prev" data-i18n-aria-label="prev_image" type="button">‹</button>
 <img alt="Termopuidust torusaun Tiki haagisel" loading="lazy" src="assets/haagisel/haagisel1.webp"/>
 <button aria-label="Järgmine pilt" class="carousel-arrow next" data-i18n-aria-label="next_image" type="button">›</button>
@@ -579,14 +575,12 @@
 <button type="button" onclick="selectModelImage('haagisel', 5)" aria-label="6"><img src="assets/haagisel/haagisel6.webp" loading="lazy" alt=""/></button>
 <button type="button" onclick="selectModelImage('haagisel', 6)" aria-label="7"><img src="assets/haagisel/haagisel7.webp" loading="lazy" alt=""/></button>
 <button type="button" onclick="selectModelImage('haagisel', 7)" aria-label="8"><img src="assets/haagisel/haagisel8.webp" loading="lazy" alt=""/></button></div></div>
-<aside class="model-summary"><h2 data-i18n="ask_offer">Küsi pakkumist</h2><p data-i18n="model_information_text">Sauna mõõdud ja varustus on toodud ülal. Küsi pakkumist, et arutada sobivat lahendust ja lisavõimalusi.</p><div class="price">4900€ <span class="vat" data-i18n="vat">+ KM</span></div><button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('haagisel')">Küsi pakkumist</button></aside>
+<aside class="model-summary"><h2 data-i18n="detail_quote">Küsi selle sauna pakkumist</h2><p data-i18n="detail_quoteText">Räägi meile oma soovidest. Täpsustame viimistluse, lisavarustuse ja transpordi sinu pakkumises.</p><div class="price">4900€ <span class="vat" data-i18n="vat">+ KM</span></div><button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('haagisel')">Küsi pakkumist</button></aside>
 </div>
-<div class="model-information"><div><h2 data-i18n="model_information">Mudeli lisainfo</h2><p data-i18n="product5_text">Termopuidust torusaun Tiki haagisel mahutab 4–6 inimest. Lavalauad ja põrandarest on lepast.</p></div><div class="model-facts"><div class="specs">
-<span data-i18n="spec5_1">🌲 Vastupidav termopuit</span>
-<span data-i18n="spec5_2">👥 Mahutab 4–6 inimest</span>
-<span data-i18n="spec5_3">🔥 Harvia M3 puukeris</span>
-<span data-i18n="spec5_4">📏 2,4 m × 2,2 m</span>
-</div></div></div>
+<div class="model-information" id="details-haagisel"><div class="details-section-heading"><span class="eyebrow" data-i18n="more_info">Lisainfo</span><h2 data-i18n="model_information">Mudeli lisainfo</h2></div><div class="detail-grid" data-detail-variant="0"><article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🌲</span><h3 data-i18n="detail_materials">Materjal ja viimistlus</h3></div><ul class="detail-list"><li data-i18n="detail_thermo">Termopuidust saunakorpus</li><li data-i18n="detail_alder">Lepast lavalauad ja põrandarestid</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🔥</span><h3 data-i18n="detail_included">Komplektis</h3></div><ul class="detail-list"><li data-i18n="detail_tiki">Tiki saunahaagis</li><li data-i18n="detail_m3Only">Harvia M3 puukeris</li><li data-i18n="detail_chimney">Isoleeritud roostevabast terasest korsten</li><li data-i18n="detail_lockOnly">Lukustatav välisuks</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">✦</span><h3 data-i18n="detail_options">Lisavõimalused</h3></div><ul class="detail-list"><li data-i18n="detail_custom">Mõõdud ja lahendus vastavalt sinu soovidele</li></ul></article>
+<article class="detail-card"><div class="detail-card-heading"><span class="detail-symbol" aria-hidden="true">🚚</span><h3 data-i18n="detail_delivery">Tarne ja transport</h3></div><ul class="detail-list"><li data-i18n="detail_capacity">Mahutab 4–6 inimest</li><li data-i18n="detail_reola">Asume Reolas, Tartu lähedal</li></ul></article></div></div>
 </div>
 </section>
 </main>
@@ -601,6 +595,6 @@
 <div class="lightbox-thumbs"></div>
 </div>
 <div class="toast" id="toast"></div>
-<script src="script.js?v=20261014-model-details" defer></script>
+<script src="script.js?v=20261014-model-notes" defer></script>
 </body>
 </html>

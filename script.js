@@ -922,6 +922,332 @@ const translations = {
   }
 };
 
+Object.assign(translations.et, {
+  "detail_materials": "Materjal ja viimistlus",
+  "detail_included": "Komplektis",
+  "detail_options": "Lisavõimalused",
+  "detail_delivery": "Tarne ja transport",
+  "detail_choose": "Vali lahendus",
+  "detail_quote": "Küsi selle sauna pakkumist",
+  "detail_quoteText": "Räägi meile oma soovidest. Täpsustame viimistluse, lisavarustuse ja transpordi sinu pakkumises.",
+  "detail_thermo40": "40 mm termomänd · otsaseinad 26 mm",
+  "detail_spruce40": "40 mm kuusepuit · otsaseinad 28 mm",
+  "detail_spruce": "Kuusepuust saunakorpus",
+  "detail_thermo": "Termopuidust saunakorpus",
+  "detail_alder": "Lepast lavalauad ja põrandarestid",
+  "detail_alder28": "28 mm lepast lava ja põrandarest",
+  "detail_alderSeat": "Lepast lavad, istumispink ja põrandarestid",
+  "detail_icopal": "Icopali katusekate",
+  "detail_shingles": "Kärgruberoidist katus · värv sinu valikul",
+  "detail_glass": "Karastatud pronksitooni ukse- ja aknaklaasid",
+  "detail_bands": "Roostevabast terasest pingutusvitsad",
+  "detail_finish": "Välisviimistlus tehtud",
+  "detail_colour": "Välisviimistlus kliendi valitud toonis",
+  "detail_m3": "Harvia M3 puukeris ja kerisekivid",
+  "detail_heaterChoice": "Harvia M3 või Stoveman 13M puukeris koos kividega",
+  "detail_chimney": "Isoleeritud roostevabast terasest korsten",
+  "detail_tank": "35 l roostevabast terasest veepaak",
+  "detail_lock": "Lukustatav välisuks · kaasas 3 võtit",
+  "detail_lockOnly": "Lukustatav välisuks",
+  "detail_glued": "Liimpuidust lukustatav välisuks · 3 võtit",
+  "detail_fire": "Tulekindlad kaitseplaadid",
+  "detail_vents3": "3 ventilatsiooniava · neist 2 reguleeritavad",
+  "detail_vents": "Ventilatsioonirestid",
+  "detail_bucket": "Saunakibu ja kulp",
+  "detail_electric": "Võimalik tellida elektriküttega",
+  "detail_thermoOption": "Saadaval ka termopuidust variant",
+  "detail_custom": "Mõõdud ja lahendus vastavalt sinu soovidele",
+  "detail_external": "Väljast köetav keris +150 €",
+  "detail_tankExtra": "Veepaak lisavalikuna +150 €",
+  "detail_noHeater": "Võimalik tellida ilma keriseta",
+  "detail_led": "LED-valgustuse võimalus",
+  "detail_lengthRange": "Tellitav pikkus 1,6–2,4 m; võimalikud ka erimõõdud",
+  "detail_assembled": "Tarnitakse täielikult kokkupanduna",
+  "detail_transport": "Transport üle Eesti kokkuleppel, lisatasu eest",
+  "detail_pickup": "Võimalik ise järele tulla; aitame kohapeal peale tõsta",
+  "detail_reola": "Asume Reolas, Tartu lähedal",
+  "detail_seven": "Valmistatakse tellimuse peale · tarne 7 tööpäeva",
+  "detail_crane": "Võimalik kraanaautoga transport · küsi pakkumist",
+  "detail_trailerWidth": "Sobib haagisele laiusega 1500 mm",
+  "detail_brown": "Kohe olemas · pruun välisviimistlus",
+  "detail_darkBrown": "Kohe olemas 1 tk · tumepruun välisviimistlus",
+  "detail_rooms": "Eesruum 1,2 m · leiliruum 1,6 m",
+  "detail_equalRooms": "Leiliruum ja eesruum võrdselt pooleks",
+  "detail_terrace": "Sauna ees terrass koos pinkidega",
+  "detail_tiki": "Tiki saunahaagis",
+  "detail_capacity": "Mahutab 4–6 inimest",
+  "detail_variant38": "3,8 m · termomänd",
+  "detail_variant30": "3,0 m · kahe ruumiga",
+  "detail_dimensions38": "Pikkus 3,8 m · kõrgus 2,1 m",
+  "detail_dimensions30": "Pikkus 3,0 m · läbimõõt 2,2 m",
+  "detail_dimensions1": "Pikkus 2,0 m · kõrgus 2,1 m",
+  "detail_alderBench": "Lepast lavalauad",
+  "detail_variant30Form": "2-ruumiline torusaun · 3,0 m"
+});
+Object.assign(translations.en, {
+  "detail_materials": "Materials and finish",
+  "detail_included": "Included",
+  "detail_options": "Optional extras",
+  "detail_delivery": "Delivery and transport",
+  "detail_choose": "Choose your version",
+  "detail_quote": "Request a quote for this sauna",
+  "detail_quoteText": "Tell us your preferences. We will specify the finish, optional equipment and delivery in your quote.",
+  "detail_thermo40": "40 mm thermally modified pine · 26 mm end walls",
+  "detail_spruce40": "40 mm spruce · 28 mm end walls",
+  "detail_spruce": "Spruce sauna body",
+  "detail_thermo": "Thermowood sauna body",
+  "detail_alder": "Alder bench boards and floor grates",
+  "detail_alder28": "28 mm alder benches and floor grate",
+  "detail_alderSeat": "Alder benches, seat and floor grates",
+  "detail_icopal": "Icopal roofing",
+  "detail_shingles": "Bitumen shingle roof · colour of your choice",
+  "detail_glass": "Tempered bronze-tinted door and window glass",
+  "detail_bands": "Stainless steel tightening bands",
+  "detail_finish": "Exterior finish applied",
+  "detail_colour": "Exterior finish in your chosen colour",
+  "detail_m3": "Harvia M3 wood-burning heater and sauna stones",
+  "detail_heaterChoice": "Harvia M3 or Stoveman 13M wood-burning heater with stones",
+  "detail_chimney": "Insulated stainless steel chimney",
+  "detail_tank": "35 l stainless steel water tank",
+  "detail_lock": "Lockable exterior door · 3 keys included",
+  "detail_lockOnly": "Lockable exterior door",
+  "detail_glued": "Lockable laminated-wood exterior door · 3 keys",
+  "detail_fire": "Fire-resistant protective panels",
+  "detail_vents3": "3 ventilation openings · 2 adjustable",
+  "detail_vents": "Ventilation grilles",
+  "detail_bucket": "Sauna bucket and ladle",
+  "detail_electric": "Electric heater option available",
+  "detail_thermoOption": "Thermowood version also available",
+  "detail_custom": "Custom dimensions and configuration",
+  "detail_external": "Externally fired heater +€150",
+  "detail_tankExtra": "Optional water tank +€150",
+  "detail_noHeater": "Available without a heater",
+  "detail_led": "Optional LED lighting",
+  "detail_lengthRange": "Length options 1.6–2.4 m; custom sizes also available",
+  "detail_assembled": "Delivered fully assembled",
+  "detail_transport": "Transport across Estonia by arrangement, at extra cost",
+  "detail_pickup": "Collection available; we help with loading on site",
+  "detail_reola": "Located in Reola, near Tartu",
+  "detail_seven": "Made to order · delivery in 7 working days",
+  "detail_crane": "Crane truck transport available · request a quote",
+  "detail_trailerWidth": "Fits a trailer with a width of 1500 mm",
+  "detail_brown": "Available now · brown exterior finish",
+  "detail_darkBrown": "1 in stock · dark brown exterior finish",
+  "detail_rooms": "Changing room 1.2 m · sauna room 1.6 m",
+  "detail_equalRooms": "Sauna room and changing room split equally",
+  "detail_terrace": "Front terrace with benches",
+  "detail_tiki": "Tiki sauna trailer",
+  "detail_capacity": "Seats 4–6 people",
+  "detail_variant38": "3.8 m · thermally modified pine",
+  "detail_variant30": "3.0 m · two rooms",
+  "detail_dimensions38": "Length 3.8 m · height 2.1 m",
+  "detail_dimensions30": "Length 3.0 m · diameter 2.2 m",
+  "detail_dimensions1": "Length 2.0 m · height 2.1 m",
+  "detail_alderBench": "Alder bench boards",
+  "detail_variant30Form": "2-room barrel sauna · 3.0 m"
+});
+Object.assign(translations.ru, {
+  "detail_materials": "Материалы и отделка",
+  "detail_included": "В комплекте",
+  "detail_options": "Дополнительные возможности",
+  "detail_delivery": "Доставка и транспорт",
+  "detail_choose": "Выберите вариант",
+  "detail_quote": "Запросите предложение на эту баню",
+  "detail_quoteText": "Расскажите о своих пожеланиях. В предложении уточним отделку, дополнительное оснащение и доставку.",
+  "detail_thermo40": "Термососна 40 мм · торцевые стены 26 мм",
+  "detail_spruce40": "Ель 40 мм · торцевые стены 28 мм",
+  "detail_spruce": "Корпус бани из ели",
+  "detail_thermo": "Корпус бани из термодревесины",
+  "detail_alder": "Доски полков и решётки пола из ольхи",
+  "detail_alder28": "Полки и решётка пола из ольхи 28 мм",
+  "detail_alderSeat": "Полки, скамья и решётки пола из ольхи",
+  "detail_icopal": "Кровля Icopal",
+  "detail_shingles": "Битумная черепица · цвет на выбор",
+  "detail_glass": "Закалённые стёкла дверей и окон бронзового оттенка",
+  "detail_bands": "Стяжные обручи из нержавеющей стали",
+  "detail_finish": "Наружная отделка выполнена",
+  "detail_colour": "Наружная отделка в выбранном вами цвете",
+  "detail_m3": "Дровяная печь Harvia M3 и камни",
+  "detail_heaterChoice": "Дровяная печь Harvia M3 или Stoveman 13M с камнями",
+  "detail_chimney": "Утеплённый дымоход из нержавеющей стали",
+  "detail_tank": "Бак для воды из нержавеющей стали 35 л",
+  "detail_lock": "Запираемая входная дверь · 3 ключа",
+  "detail_lockOnly": "Запираемая входная дверь",
+  "detail_glued": "Запираемая входная дверь из клеёной древесины · 3 ключа",
+  "detail_fire": "Огнестойкие защитные плиты",
+  "detail_vents3": "3 вентиляционных отверстия · 2 регулируемых",
+  "detail_vents": "Вентиляционные решётки",
+  "detail_bucket": "Банный ушат и ковш",
+  "detail_electric": "Возможен заказ с электрокаменкой",
+  "detail_thermoOption": "Доступен вариант из термодревесины",
+  "detail_custom": "Размеры и исполнение по вашим пожеланиям",
+  "detail_external": "Печь с внешней топкой +150 €",
+  "detail_tankExtra": "Дополнительный бак для воды +150 €",
+  "detail_noHeater": "Возможен заказ без печи",
+  "detail_led": "Возможность LED-подсветки",
+  "detail_lengthRange": "Длина на заказ 1,6–2,4 м; возможны другие размеры",
+  "detail_assembled": "Поставляется полностью собранной",
+  "detail_transport": "Доставка по Эстонии по договорённости за дополнительную плату",
+  "detail_pickup": "Возможен самовывоз; поможем с погрузкой на месте",
+  "detail_reola": "Находимся в Реола, рядом с Тарту",
+  "detail_seven": "Изготовление на заказ · поставка за 7 рабочих дней",
+  "detail_crane": "Возможна доставка автомобилем с краном · запросите предложение",
+  "detail_trailerWidth": "Подходит для прицепа шириной 1500 мм",
+  "detail_brown": "В наличии · коричневая наружная отделка",
+  "detail_darkBrown": "В наличии 1 шт. · тёмно-коричневая наружная отделка",
+  "detail_rooms": "Предбанник 1,2 м · парная 1,6 м",
+  "detail_equalRooms": "Парная и предбанник равного размера",
+  "detail_terrace": "Терраса со скамьями перед баней",
+  "detail_tiki": "Прицеп для бани Tiki",
+  "detail_capacity": "Вмещает 4–6 человек",
+  "detail_variant38": "3,8 м · термососна",
+  "detail_variant30": "3,0 м · две комнаты",
+  "detail_dimensions38": "Длина 3,8 м · высота 2,1 м",
+  "detail_dimensions30": "Длина 3,0 м · диаметр 2,2 м",
+  "detail_dimensions1": "Длина 2,0 м · высота 2,1 м",
+  "detail_alderBench": "Доски полков из ольхи",
+  "detail_variant30Form": "2-комнатная баня-бочка · 3,0 м"
+});
+Object.assign(translations.sv, {
+  "detail_materials": "Material och ytbehandling",
+  "detail_included": "Ingår",
+  "detail_options": "Tillval",
+  "detail_delivery": "Leverans och transport",
+  "detail_choose": "Välj utförande",
+  "detail_quote": "Begär en offert för denna bastu",
+  "detail_quoteText": "Berätta om dina önskemål. Vi specificerar ytbehandling, tillval och transport i din offert.",
+  "detail_thermo40": "40 mm termofuru · 26 mm gavlar",
+  "detail_spruce40": "40 mm gran · 28 mm gavlar",
+  "detail_spruce": "Bastukropp i gran",
+  "detail_thermo": "Bastukropp i termoträ",
+  "detail_alder": "Lavbrädor och golvgaller av al",
+  "detail_alder28": "Lavar och golvgaller av 28 mm al",
+  "detail_alderSeat": "Lavar, sittbänk och golvgaller av al",
+  "detail_icopal": "Icopal-takbeläggning",
+  "detail_shingles": "Tak av bitumenshingel · valfri färg",
+  "detail_glass": "Härdat bronsfärgat glas i dörrar och fönster",
+  "detail_bands": "Spännband i rostfritt stål",
+  "detail_finish": "Utvändig ytbehandling klar",
+  "detail_colour": "Utvändig ytbehandling i valfri kulör",
+  "detail_m3": "Vedeldat Harvia M3-aggregat och bastustenar",
+  "detail_heaterChoice": "Vedeldat Harvia M3- eller Stoveman 13M-aggregat med stenar",
+  "detail_chimney": "Isolerad skorsten i rostfritt stål",
+  "detail_tank": "35 l vattentank i rostfritt stål",
+  "detail_lock": "Låsbar ytterdörr · 3 nycklar ingår",
+  "detail_lockOnly": "Låsbar ytterdörr",
+  "detail_glued": "Låsbar ytterdörr i limträ · 3 nycklar",
+  "detail_fire": "Brandskyddsskivor",
+  "detail_vents3": "3 ventilationsöppningar · 2 justerbara",
+  "detail_vents": "Ventilationsgaller",
+  "detail_bucket": "Bastuhink och skopa",
+  "detail_electric": "Kan beställas med elaggregat",
+  "detail_thermoOption": "Finns även i termoträ",
+  "detail_custom": "Mått och utförande efter dina önskemål",
+  "detail_external": "Utvändigt eldat aggregat +150 €",
+  "detail_tankExtra": "Vattentank som tillval +150 €",
+  "detail_noHeater": "Kan beställas utan aggregat",
+  "detail_led": "LED-belysning som tillval",
+  "detail_lengthRange": "Beställningsbar längd 1,6–2,4 m; även specialmått möjliga",
+  "detail_assembled": "Levereras färdigmonterad",
+  "detail_transport": "Transport i Estland enligt överenskommelse, mot tillägg",
+  "detail_pickup": "Avhämtning möjlig; vi hjälper till med lastning",
+  "detail_reola": "Vi finns i Reola, nära Tartu",
+  "detail_seven": "Tillverkas på beställning · leverans på 7 arbetsdagar",
+  "detail_crane": "Transport med kranbil möjlig · begär offert",
+  "detail_trailerWidth": "Passar ett släp med bredden 1500 mm",
+  "detail_brown": "Finns i lager · brun ytbehandling",
+  "detail_darkBrown": "1 i lager · mörkbrun ytbehandling",
+  "detail_rooms": "Förrum 1,2 m · basturum 1,6 m",
+  "detail_equalRooms": "Basturum och förrum lika stora",
+  "detail_terrace": "Terrass med bänkar framför bastun",
+  "detail_tiki": "Tiki-bastusläp",
+  "detail_capacity": "Plats för 4–6 personer",
+  "detail_variant38": "3,8 m · termofuru",
+  "detail_variant30": "3,0 m · två rum",
+  "detail_dimensions38": "Längd 3,8 m · höjd 2,1 m",
+  "detail_dimensions30": "Längd 3,0 m · diameter 2,2 m",
+  "detail_dimensions1": "Längd 2,0 m · höjd 2,1 m",
+  "detail_alderBench": "Lavbrädor av al",
+  "detail_variant30Form": "2-rums tunnbastu · 3,0 m"
+});
+Object.assign(translations.fi, {
+  "detail_materials": "Materiaalit ja viimeistely",
+  "detail_included": "Sisältyy toimitukseen",
+  "detail_options": "Lisävarusteet",
+  "detail_delivery": "Toimitus ja kuljetus",
+  "detail_choose": "Valitse vaihtoehto",
+  "detail_quote": "Pyydä tarjous tästä saunasta",
+  "detail_quoteText": "Kerro toiveesi. Täsmennämme viimeistelyn, lisävarusteet ja kuljetuksen tarjouksessa.",
+  "detail_thermo40": "40 mm lämpömänty · 26 mm päätyseinät",
+  "detail_spruce40": "40 mm kuusi · 28 mm päätyseinät",
+  "detail_spruce": "Saunan runko kuusta",
+  "detail_thermo": "Saunan runko lämpöpuuta",
+  "detail_alder": "Laudelaudat ja lattiaritilät leppää",
+  "detail_alder28": "28 mm leppälauteet ja lattiaritilä",
+  "detail_alderSeat": "Lauteet, penkki ja lattiaritilät leppää",
+  "detail_icopal": "Icopal-kate",
+  "detail_shingles": "Bitumikattolaatat · valitsemasi väri",
+  "detail_glass": "Karkaistut pronssinsävyiset ovi- ja ikkunalasit",
+  "detail_bands": "Ruostumattomat kiristysvanteet",
+  "detail_finish": "Ulkopinta viimeistelty",
+  "detail_colour": "Ulkopinta valitsemallasi sävyllä",
+  "detail_m3": "Harvia M3 -puukiuas ja kiuaskivet",
+  "detail_heaterChoice": "Harvia M3- tai Stoveman 13M -puukiuas kivineen",
+  "detail_chimney": "Eristetty ruostumaton savupiippu",
+  "detail_tank": "35 l ruostumaton vesisäiliö",
+  "detail_lock": "Lukittava ulko-ovi · mukana 3 avainta",
+  "detail_lockOnly": "Lukittava ulko-ovi",
+  "detail_glued": "Lukittava liimapuuovi · 3 avainta",
+  "detail_fire": "Palonkestävät suojalevyt",
+  "detail_vents3": "3 ilmanvaihtoaukkoa · 2 säädettävää",
+  "detail_vents": "Ilmanvaihtoritilät",
+  "detail_bucket": "Saunakiulu ja kauha",
+  "detail_electric": "Saatavana sähkökiukaalla",
+  "detail_thermoOption": "Saatavana myös lämpöpuusta",
+  "detail_custom": "Mitat ja ratkaisu toiveidesi mukaan",
+  "detail_external": "Ulkopuolelta lämmitettävä kiuas +150 €",
+  "detail_tankExtra": "Vesisäiliö lisävarusteena +150 €",
+  "detail_noHeater": "Saatavana ilman kiuasta",
+  "detail_led": "LED-valaistus saatavana",
+  "detail_lengthRange": "Pituus tilauksesta 1,6–2,4 m; myös erikoismitat mahdollisia",
+  "detail_assembled": "Toimitetaan täysin koottuna",
+  "detail_transport": "Kuljetus Virossa sopimuksen mukaan lisämaksusta",
+  "detail_pickup": "Nouto mahdollista; autamme lastauksessa",
+  "detail_reola": "Sijaitsemme Reolassa Tarton lähellä",
+  "detail_seven": "Valmistetaan tilauksesta · toimitus 7 arkipäivässä",
+  "detail_crane": "Kuljetus nosturiautolla saatavana · pyydä tarjous",
+  "detail_trailerWidth": "Sopii 1500 mm leveään perävaunuun",
+  "detail_brown": "Heti saatavana · ruskea ulkopinta",
+  "detail_darkBrown": "1 kpl heti saatavana · tummanruskea ulkopinta",
+  "detail_rooms": "Eteinen 1,2 m · löylyhuone 1,6 m",
+  "detail_equalRooms": "Löylyhuone ja eteinen yhtä suuret",
+  "detail_terrace": "Saunan edessä terassi penkkeineen",
+  "detail_tiki": "Tiki-saunaperävaunu",
+  "detail_capacity": "Tilaa 4–6 hengelle",
+  "detail_variant38": "3,8 m · lämpömänty",
+  "detail_variant30": "3,0 m · kaksi huonetta",
+  "detail_dimensions38": "Pituus 3,8 m · korkeus 2,1 m",
+  "detail_dimensions30": "Pituus 3,0 m · halkaisija 2,2 m",
+  "detail_dimensions1": "Pituus 2,0 m · korkeus 2,1 m",
+  "detail_alderBench": "Laudelaudat leppää",
+  "detail_variant30Form": "2-huoneinen tynnyrisauna · 3,0 m"
+});
+
+translations.et.detail_m3Only = "Harvia M3 puukeris";
+translations.en.detail_m3Only = "Harvia M3 wood-burning heater";
+translations.ru.detail_m3Only = "Дровяная печь Harvia M3";
+translations.sv.detail_m3Only = "Vedeldat Harvia M3-aggregat";
+translations.fi.detail_m3Only = "Harvia M3 -puukiuas";
+translations.et.detail_glassPlain = "Karastatud klaasiga uksed ja aknad";
+translations.et.detail_saunaDoor = "Karastatud pronksitooni klaasuks leiliruumis";
+translations.en.detail_glassPlain = "Doors and windows with tempered glass";
+translations.en.detail_saunaDoor = "Tempered bronze-tinted glass sauna room door";
+translations.ru.detail_glassPlain = "Двери и окна с закалённым стеклом";
+translations.ru.detail_saunaDoor = "Дверь парной из закалённого стекла бронзового оттенка";
+translations.sv.detail_glassPlain = "Dörrar och fönster med härdat glas";
+translations.sv.detail_saunaDoor = "Dörr till basturummet i härdat bronsfärgat glas";
+translations.fi.detail_glassPlain = "Ovet ja ikkunat karkaistulla lasilla";
+translations.fi.detail_saunaDoor = "Löylyhuoneen ovi karkaistua pronssinsävyistä lasia";
 let currentLanguage = localStorage.getItem('siteLanguage') || 'et';
 
 function t(key){
@@ -1205,11 +1531,21 @@ function initProductCarousels(){
     const prev = carousel.querySelector('.prev');
     const next = carousel.querySelector('.next');
     let index = 0;
+    const thumbnails = carousel.closest('.model-photos')?.querySelectorAll('.model-thumbnails button');
+    function updateThumbnails(){
+      if(!thumbnails) return;
+      thumbnails.forEach((button, i) => {
+        button.classList.toggle('selected', i === index);
+        button.setAttribute('aria-pressed', String(i === index));
+      });
+    }
+    updateThumbnails();
 
     function showImage(nextIndex){
       if(!images.length || !img) return;
       index = (nextIndex + images.length) % images.length;
       img.src = images[index];
+      updateThumbnails();
     }
 
     if(prev){
@@ -1352,7 +1688,29 @@ function selectModelImage(model, index){
 function askModelOffer(model){
   const keys = {'2toru':'opt_oval','ovaal':'opt_square','terass':'product3_title','1toru':'opt_barrel','haagisel':'opt_trailer'};
   const select = document.querySelector('select[name="model"]');
-  const option = select.querySelector('[data-i18n="' + keys[model] + '"]');
+  const key = model === '2toru' && selectedBarrelVariant === 1 ? 'detail_variant30Form' : keys[model];
+  const option = select.querySelector('[data-i18n="' + key + '"]');
   if(option) select.selectedIndex = Array.from(select.options).indexOf(option);
   showPage('contact');
+}
+
+let selectedBarrelVariant = 0;
+function selectModelVariant(index){
+  if(index !== 0 && index !== 1) return;
+  selectedBarrelVariant = index;
+  const page = document.getElementById('model-2toru');
+  page.querySelectorAll('[data-detail-variant]').forEach(panel => {panel.hidden = Number(panel.dataset.detailVariant) !== index;});
+  page.querySelectorAll('[data-variant]').forEach(button => {
+    const active = Number(button.dataset.variant) === index;
+    button.classList.toggle('selected', active);
+    button.setAttribute('aria-pressed', String(active));
+  });
+  document.getElementById('variant-price').textContent = (index === 0 ? '4500' : '3600') + '€';
+  const keys = index === 0 ? ['dimensions38','thermo40','tank','m3'] : ['dimensions30','rooms','tank','m3'];
+  document.getElementById('variant-specs').replaceChildren(...keys.map(key => {
+    const span = document.createElement('span');
+    span.dataset.i18n = 'detail_' + key;
+    span.textContent = t('detail_' + key);
+    return span;
+  }));
 }

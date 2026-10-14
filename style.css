@@ -556,12 +556,13 @@ nav {
 .model-layout {
   display:grid;
   grid-template-columns:minmax(0,2.2fr) minmax(260px,1fr);
-  grid-template-areas:"intro offer" "photos offer";
+  grid-template-areas:"intro offer" "links offer" "photos offer";
   column-gap:40px;
   row-gap:30px;
   align-items:start;
 }
 .model-intro {grid-area:intro}
+.model-layout.has-variants {grid-template-areas:"intro offer" "variants offer" "links offer" "photos offer"}
 .model-intro h1 {
   font-size:clamp(28px,3.5vw,44px);
   line-height:1.15;
@@ -608,6 +609,8 @@ nav {
   height:64px;
   object-fit:cover;
 }
+.model-thumbnails button.selected {border-color:var(--wood-dark);box-shadow:0 0 0 2px var(--wood-dark)}
+.model-thumbnails button:focus-visible {outline:2px solid var(--wood-dark);outline-offset:2px}
 .model-summary {
   grid-area:offer;
   position:sticky;
@@ -621,34 +624,75 @@ nav {
 .model-summary h2 {font-size:23px;margin-bottom:14px}
 .model-summary p {color:var(--muted);font-size:15px;line-height:1.75}
 .model-summary .btn {width:100%;text-align:center}
+.model-section-links {
+  grid-area:links;
+  display:flex;
+  gap:24px;
+  border-bottom:1px solid var(--line);
+}
+.model-section-links a {
+  padding:0 0 12px;
+  color:var(--brown);
+  text-decoration:none;
+  font-weight:700;
+  border-bottom:2px solid transparent;
+}
+.model-section-links a:hover {border-color:var(--wood)}
+.model-section-links a:focus-visible,.variant-button:focus-visible {
+  outline:2px solid var(--wood-dark);
+  outline-offset:4px;
+}
+.model-photos,.model-information {scroll-margin-top:110px}
+.variant-picker {grid-area:variants}
+.variant-picker > p {font-size:14px;font-weight:700;margin-bottom:10px;color:var(--muted)}
+.variant-buttons {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.variant-button {
+  text-align:left;
+  padding:17px 18px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  background:var(--paper);
+  color:var(--dark);
+  transition:border-color .2s,box-shadow .2s;
+}
+.variant-button strong {display:block;margin-top:7px;color:var(--wood-dark)}
+.variant-button.selected {border-color:var(--wood-dark);box-shadow:inset 0 0 0 1px var(--wood-dark);background:#f3e5d3}
 .model-information {
-  display:grid;
-  grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);
-  gap:50px;
+  display:block;
   margin-top:54px;
   padding-top:34px;
   border-top:1px solid var(--line);
 }
 .model-information h2 {font-size:30px;margin-bottom:16px}
 .model-information p {color:var(--muted);line-height:1.8}
-.model-facts .specs {display:block;margin:0}
-.model-facts .specs span {
-  display:block;
-  background:none;
-  border:0;
-  border-bottom:1px solid var(--line);
-  border-radius:0;
-  padding:13px 0;
-  font-size:15px;
+.details-section-heading {margin-bottom:24px}
+.detail-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
+.detail-grid[hidden] {display:none}
+.detail-card {
+  background:var(--paper);
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:26px;
 }
+.detail-card-heading {display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.detail-card-heading h3 {font-size:20px;line-height:1.3}
+.detail-symbol {display:grid;place-items:center;width:40px;height:40px;flex-shrink:0;border-radius:12px;background:#f3e5d3}
+.detail-list {list-style:none}
+.detail-list li {position:relative;padding:11px 0 11px 22px;border-bottom:1px solid var(--line);font-size:15px;line-height:1.6;color:var(--muted)}
+.detail-list li::before {content:'✓';position:absolute;left:0;color:var(--wood-dark);font-weight:700}
+.detail-list li:last-child {border-bottom:0;padding-bottom:0}
 @media(max-width:768px) {
   .model-layout {
     grid-template-columns:minmax(0,1fr);
-    grid-template-areas:"intro" "photos" "offer";
+    grid-template-areas:"intro" "links" "photos" "offer";
     gap:22px;
   }
   .model-summary {position:static;padding:22px}
-  .model-information {grid-template-columns:1fr;gap:24px;margin-top:36px}
+  .model-layout.has-variants {grid-template-areas:"intro" "variants" "links" "photos" "offer"}
+  .model-information {margin-top:36px}
+  .detail-grid {grid-template-columns:1fr;gap:14px}
+  .detail-card {padding:20px}
+  .variant-button {padding:13px;font-size:14px}
   .model-shell {padding-top:18px}
 }
 .details-panel {
