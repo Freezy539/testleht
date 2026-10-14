@@ -1748,3 +1748,68 @@ body.lightbox-active {
     height:280px;
   }
 }
+
+/* Avalehe rahulikum, fotodele keskenduv paigutus. */
+#home .hero{min-height:660px;padding:100px 7% 120px}
+#home .hero-overlay{background:linear-gradient(90deg,rgba(28,19,13,.83),rgba(28,19,13,.52) 48%,rgba(28,19,13,.16))}
+#home .hero-content{max-width:680px}
+#home .hero h1{font-size:clamp(42px,5.4vw,72px);line-height:1.06;letter-spacing:-2px}
+#home .hero p{font-size:20px;max-width:570px;line-height:1.75}
+#home .quick-cards{margin-top:-40px;gap:0;padding:0 7%}
+#home .quick-card{border-radius:0;border:1px solid var(--line);border-right:0;box-shadow:none;padding:25px}
+#home .quick-card:first-child{border-radius:20px 0 0 20px}
+#home .quick-card:last-child{border-radius:0 20px 20px 0;border-right:1px solid var(--line)}
+#home .quick-card:hover{transform:none;background:#f3e5d3;box-shadow:none}
+#home .quick-card h3{font-size:18px;margin-bottom:9px}
+#home .quick-card p{font-size:15px;line-height:1.7}
+#home .icon{font-size:25px;margin-bottom:12px}
+#home .intro-split{padding:95px 7%;gap:70px}
+#home .intro-split h2{line-height:1.12;letter-spacing:-1px}
+#home .check-list{margin-top:24px;gap:0}
+#home .check-list li{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:14px 0;font-size:15px}
+.home-story-photo{position:relative;min-width:0}
+#home .home-story-photo img{height:530px;border-radius:24px;object-position:center}
+.home-photo-note{position:absolute;bottom:22px;left:22px;right:22px;padding:14px 18px;border-radius:12px;background:var(--paper);color:var(--brown);font-size:14px;font-weight:700}
+.home-models{padding:0 7% 85px}
+.home-section-heading{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:30px}
+.home-section-heading>div{max-width:680px}
+.home-section-heading h2,.home-invitation h2{font-size:clamp(30px,3.6vw,46px);line-height:1.15;letter-spacing:-1px;margin-bottom:15px}
+.home-section-heading p,.home-invitation p{font-size:18px;line-height:1.7;color:var(--muted)}
+.home-section-heading .btn,.home-invitation .btn{flex-shrink:0}
+.home-model-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.home-model-tile{padding:0;text-align:left;border:1px solid var(--line);border-radius:22px;background:var(--paper);overflow:hidden;color:var(--dark)}
+.home-model-tile img{width:100%;height:310px;object-fit:cover;transition:transform .3s}
+.home-model-tile:hover img{transform:scale(1.025)}
+.home-model-tile:focus-visible{outline:3px solid var(--wood-dark);outline-offset:4px}
+.home-model-caption{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:22px;font-size:19px;font-weight:700}
+.home-model-caption>span:last-child{color:var(--wood-dark);font-size:25px}
+.home-invitation{margin:0 7%;padding:42px;border:1px solid var(--line);border-radius:24px;background:var(--paper);display:flex;align-items:center;justify-content:space-between;gap:35px}
+.home-invitation>div{max-width:730px}
+@media(max-width:1000px){
+#home .quick-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+#home .quick-card,#home .quick-card:first-child,#home .quick-card:last-child{border:1px solid var(--line);border-radius:18px}
+#home .intro-split{gap:30px}
+.home-model-tile img{height:240px}
+.home-model-caption{font-size:16px;padding:16px}
+}
+@media(max-width:768px){
+#home .hero{min-height:560px;padding:65px 6% 85px}
+#home .hero h1{font-size:clamp(38px,10vw,54px);letter-spacing:-1px}
+#home .hero p{font-size:17px;line-height:1.65}
+#home .hero-overlay{background:linear-gradient(90deg,rgba(28,19,13,.82),rgba(28,19,13,.45))}
+#home .quick-cards{margin-top:20px;padding:0 6%}
+#home .quick-card{padding:18px}
+#home .quick-card h3{font-size:16px}
+#home .quick-card p{font-size:14px}
+#home .intro-split{grid-template-columns:1fr;padding:55px 6%;gap:28px}
+#home .home-story-photo img{height:380px}
+.home-models{padding:0 6% 50px}
+.home-section-heading{display:block}
+.home-section-heading .btn{margin-top:20px}
+.home-model-grid{grid-template-columns:1fr;gap:18px}
+.home-model-tile img{height:auto;aspect-ratio:4/3}
+.home-model-caption{font-size:19px;padding:20px}
+.home-invitation{margin:0 6%;padding:25px;display:block}
+.home-invitation .btn{margin-top:22px}
+}
+@media(prefers-reduced-motion:reduce){.page,.hero-content{animation:none}.home-model-tile img{transition:none}}

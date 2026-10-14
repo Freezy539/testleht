@@ -969,8 +969,8 @@ Object.assign(translations.et, {
   "detail_seven": "Valmistatakse tellimuse peale · tarne 7 tööpäeva",
   "detail_crane": "Võimalik kraanaautoga transport · küsi pakkumist",
   "detail_trailerWidth": "Sobib haagisele laiusega 1500 mm",
-  "detail_brown": "Kohe olemas · pruun välisviimistlus",
-  "detail_darkBrown": "Kohe olemas 1 tk · tumepruun välisviimistlus",
+
+
   "detail_rooms": "Eesruum 1,2 m · leiliruum 1,6 m",
   "detail_equalRooms": "Leiliruum ja eesruum võrdselt pooleks",
   "detail_terrace": "Sauna ees terrass koos pinkidega",
@@ -1031,8 +1031,8 @@ Object.assign(translations.en, {
   "detail_seven": "Made to order · delivery in 7 working days",
   "detail_crane": "Crane truck transport available · request a quote",
   "detail_trailerWidth": "Fits a trailer with a width of 1500 mm",
-  "detail_brown": "Available now · brown exterior finish",
-  "detail_darkBrown": "1 in stock · dark brown exterior finish",
+
+
   "detail_rooms": "Changing room 1.2 m · sauna room 1.6 m",
   "detail_equalRooms": "Sauna room and changing room split equally",
   "detail_terrace": "Front terrace with benches",
@@ -1093,8 +1093,8 @@ Object.assign(translations.ru, {
   "detail_seven": "Изготовление на заказ · поставка за 7 рабочих дней",
   "detail_crane": "Возможна доставка автомобилем с краном · запросите предложение",
   "detail_trailerWidth": "Подходит для прицепа шириной 1500 мм",
-  "detail_brown": "В наличии · коричневая наружная отделка",
-  "detail_darkBrown": "В наличии 1 шт. · тёмно-коричневая наружная отделка",
+
+
   "detail_rooms": "Предбанник 1,2 м · парная 1,6 м",
   "detail_equalRooms": "Парная и предбанник равного размера",
   "detail_terrace": "Терраса со скамьями перед баней",
@@ -1155,8 +1155,8 @@ Object.assign(translations.sv, {
   "detail_seven": "Tillverkas på beställning · leverans på 7 arbetsdagar",
   "detail_crane": "Transport med kranbil möjlig · begär offert",
   "detail_trailerWidth": "Passar ett släp med bredden 1500 mm",
-  "detail_brown": "Finns i lager · brun ytbehandling",
-  "detail_darkBrown": "1 i lager · mörkbrun ytbehandling",
+
+
   "detail_rooms": "Förrum 1,2 m · basturum 1,6 m",
   "detail_equalRooms": "Basturum och förrum lika stora",
   "detail_terrace": "Terrass med bänkar framför bastun",
@@ -1217,8 +1217,8 @@ Object.assign(translations.fi, {
   "detail_seven": "Valmistetaan tilauksesta · toimitus 7 arkipäivässä",
   "detail_crane": "Kuljetus nosturiautolla saatavana · pyydä tarjous",
   "detail_trailerWidth": "Sopii 1500 mm leveään perävaunuun",
-  "detail_brown": "Heti saatavana · ruskea ulkopinta",
-  "detail_darkBrown": "1 kpl heti saatavana · tummanruskea ulkopinta",
+
+
   "detail_rooms": "Eteinen 1,2 m · löylyhuone 1,6 m",
   "detail_equalRooms": "Löylyhuone ja eteinen yhtä suuret",
   "detail_terrace": "Saunan edessä terassi penkkeineen",
@@ -1248,6 +1248,102 @@ translations.sv.detail_glassPlain = "Dörrar och fönster med härdat glas";
 translations.sv.detail_saunaDoor = "Dörr till basturummet i härdat bronsfärgat glas";
 translations.fi.detail_glassPlain = "Ovet ja ikkunat karkaistulla lasilla";
 translations.fi.detail_saunaDoor = "Löylyhuoneen ovi karkaistua pronssinsävyistä lasia";
+Object.assign(translations.et, {
+  "hero_title": "Sinu oma paik hea leili jaoks",
+  "hero_text": "Puidu soojus, hea leil ja aeg iseendale. Valmistame Tartumaal välisaunu, mis sobivad sinu koduhoovi, suvilasse või veekogu äärde.",
+  "quick_1_title": "Päris puidu soojus",
+  "quick_1_text": "Kuuse- ja termopuit, mis annavad saunale loomuliku ilme.",
+  "quick_2_title": "Oma koht puhkamiseks",
+  "quick_2_text": "Kompaktne saun või ruumikam lahendus koos eesruumiga.",
+  "quick_3_title": "Sinu kodu, sinu toon",
+  "quick_3_text": "Vali viimistlus, mis sobib sinu aia ja koduga.",
+  "quick_4_title": "Kokkupanduna kohale",
+  "quick_4_text": "Saun valmib meie juures. Transpordi lepime sinuga kokku.",
+  "home_title": "Võta aeg maha. Pane saun küdema.",
+  "home_text": "Pärast pikka päeva või keset rahulikku nädalavahetust — oma saunas on aega lihtsalt olla. Meie valmistame sauna, sina valid sellele oma lemmikkoha.",
+  "home_models_eyebrow": "Leia oma saun",
+  "home_models_title": "Igal saunal oma koht.",
+  "home_models_text": "Eesruumiga, avarama kujuga või hoopis ratastel — vaata, milline lahendus sobib sulle.",
+  "home_invite_title": "Hea leil algab heast saunast.",
+  "home_invite_text": "Räägi meile, kuhu oma sauna soovid. Leiame koos sobiva mudeli, viimistluse ja transpordilahenduse."
+});
+Object.assign(translations.en, {
+  "hero_title": "Your own place for a good sauna",
+  "hero_text": "Warm wood, a good sauna and time for yourself. We build outdoor saunas in Tartumaa for your garden, summer house or waterside retreat.",
+  "quick_1_title": "The warmth of real wood",
+  "quick_1_text": "Spruce and thermowood give your sauna a natural look.",
+  "quick_2_title": "Your place to unwind",
+  "quick_2_text": "A compact sauna or a spacious version with a changing room.",
+  "quick_3_title": "Your home, your colour",
+  "quick_3_text": "Choose a finish that suits your garden and home.",
+  "quick_4_title": "Delivered assembled",
+  "quick_4_text": "We assemble your sauna at our workshop and arrange transport with you.",
+  "home_title": "Slow down. Warm up the sauna.",
+  "home_text": "After a long day or during a quiet weekend, your own sauna gives you time to simply be. We build the sauna; you choose its favourite spot.",
+  "home_models_eyebrow": "Find your sauna",
+  "home_models_title": "A place for every sauna.",
+  "home_models_text": "With a changing room, a roomier shape or on wheels — find the version that suits you.",
+  "home_invite_title": "A good sauna starts with the right sauna.",
+  "home_invite_text": "Tell us where you would like your sauna. Together we will find the right model, finish and transport solution."
+});
+Object.assign(translations.ru, {
+  "hero_title": "Ваше место для хорошего пара",
+  "hero_text": "Тепло дерева, хороший пар и время для себя. Мы создаём уличные бани в Тартумаа для вашего двора, дачи или места у воды.",
+  "quick_1_title": "Тепло настоящего дерева",
+  "quick_1_text": "Ель и термодревесина придают бане естественный облик.",
+  "quick_2_title": "Ваше место для отдыха",
+  "quick_2_text": "Компактная баня или просторный вариант с предбанником.",
+  "quick_3_title": "Ваш дом, ваш цвет",
+  "quick_3_text": "Выберите отделку, которая подходит вашему саду и дому.",
+  "quick_4_title": "Доставка в собранном виде",
+  "quick_4_text": "Мы собираем баню в нашей мастерской и согласуем с вами доставку.",
+  "home_title": "Остановитесь на мгновение. Растопите баню.",
+  "home_text": "После долгого дня или в спокойные выходные своя баня дарит время просто побыть собой. Мы построим баню, а вы выберете для неё любимое место.",
+  "home_models_eyebrow": "Найдите свою баню",
+  "home_models_title": "Для каждой бани найдётся своё место.",
+  "home_models_text": "С предбанником, более просторной формы или на колёсах — найдите подходящий вариант.",
+  "home_invite_title": "Хороший пар начинается с хорошей бани.",
+  "home_invite_text": "Расскажите, где вы хотите поставить баню. Вместе подберём модель, отделку и доставку."
+});
+Object.assign(translations.sv, {
+  "hero_title": "Din egen plats för en skön bastu",
+  "hero_text": "Varmt trä, skön bastu och tid för dig själv. Vi bygger utebastur i Tartumaa för din trädgård, ditt sommarställe eller en plats vid vattnet.",
+  "quick_1_title": "Värmen från äkta trä",
+  "quick_1_text": "Gran och termoträ ger bastun ett naturligt uttryck.",
+  "quick_2_title": "Din plats för avkoppling",
+  "quick_2_text": "En kompakt bastu eller en rymligare lösning med förrum.",
+  "quick_3_title": "Ditt hem, din kulör",
+  "quick_3_text": "Välj en ytbehandling som passar din trädgård och ditt hem.",
+  "quick_4_title": "Levereras färdigmonterad",
+  "quick_4_text": "Vi monterar bastun hos oss och kommer överens om transporten med dig.",
+  "home_title": "Ta en paus. Värm upp bastun.",
+  "home_text": "Efter en lång dag eller under en lugn helg ger din egen bastu tid att bara vara. Vi bygger bastun, du väljer din favoritplats för den.",
+  "home_models_eyebrow": "Hitta din bastu",
+  "home_models_title": "En plats för varje bastu.",
+  "home_models_text": "Med förrum, en rymligare form eller på hjul — hitta den lösning som passar dig.",
+  "home_invite_title": "En skön bastustund börjar med rätt bastu.",
+  "home_invite_text": "Berätta var du vill ha din bastu. Tillsammans hittar vi rätt modell, ytbehandling och transportlösning."
+});
+Object.assign(translations.fi, {
+  "hero_title": "Oma paikkasi hyville löylyille",
+  "hero_text": "Puun lämpöä, hyviä löylyjä ja aikaa itsellesi. Valmistamme Tartumaalla ulkosaunoja kotipihalle, mökille ja veden äärelle.",
+  "quick_1_title": "Aidon puun lämpö",
+  "quick_1_text": "Kuusi ja lämpöpuu antavat saunalle luonnollisen ilmeen.",
+  "quick_2_title": "Oma paikka rentoutua",
+  "quick_2_text": "Kompakti sauna tai tilavampi ratkaisu eteisellä.",
+  "quick_3_title": "Sinun kotisi, sinun sävysi",
+  "quick_3_text": "Valitse viimeistely, joka sopii pihaasi ja kotiisi.",
+  "quick_4_title": "Toimitetaan koottuna",
+  "quick_4_text": "Kokoamme saunan verstaallamme ja sovimme kuljetuksesta kanssasi.",
+  "home_title": "Pysähdy hetkeksi. Laita sauna lämpiämään.",
+  "home_text": "Pitkän päivän jälkeen tai rauhallisena viikonloppuna omassa saunassa on aikaa vain olla. Me rakennamme saunan, sinä valitset sille mieluisan paikan.",
+  "home_models_eyebrow": "Löydä oma saunasi",
+  "home_models_title": "Jokaiselle saunalle oma paikka.",
+  "home_models_text": "Eteisellä, tilavammalla muodolla tai pyörillä — löydä sinulle sopiva ratkaisu.",
+  "home_invite_title": "Hyvät löylyt alkavat hyvästä saunasta.",
+  "home_invite_text": "Kerro, mihin haluat saunasi. Löydämme yhdessä sopivan mallin, viimeistelyn ja kuljetusratkaisun."
+});
+
 let currentLanguage = localStorage.getItem('siteLanguage') || 'et';
 
 function t(key){
@@ -1714,3 +1810,15 @@ function selectModelVariant(index){
     return span;
   }));
 }
+
+// Smooth navigation inside each model page, accounting for the sticky header.
+document.addEventListener('click', event => {
+  const link = event.target.closest('.model-section-links a');
+  if(!link) return;
+  const target = document.getElementById(link.getAttribute('href').slice(1));
+  if(!target) return;
+  event.preventDefault();
+  const header = document.querySelector('.site-header');
+  target.style.scrollMarginTop = ((header ? header.getBoundingClientRect().height : 0) + 20) + 'px';
+  target.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'});
+});
