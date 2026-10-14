@@ -6,6 +6,16 @@
 
 const translations = {
   "et": {
+    "product5_badge": "Mobiilne",
+    "product5_title": "Haagisel torusaun",
+    "product5_text": "Termopuidust torusaun Tiki haagisel mahutab 4–6 inimest. Lavalauad ja põrandarest on lepast.",
+    "spec5_1": "📏 Kogupikkus 2400 mm · läbimõõt 2200 mm",
+    "spec5_2": "🔥 Komplektis Harvia M3 puuküttega keris",
+    "spec5_3": "🛡 Isoleeritud roostevabast terasest korsten",
+    "spec5_4": "🚪 Lukustatav välisuks",
+    "product5_towing": "Vedamiseks piisab B-kategooria juhiloast, kui auto lubatud haagisemass sobib sauna ja haagise tegeliku massiga.",
+    "opt_trailer": "Haagisel torusaun",
+
     "meta_title": "OutDoorSauna | Toru-, ovaal- ja kandilised saunad",
     "meta_description": "OutDoorSauna valmistab toru-, ovaal- ja kandilisi välisaunu otse tootjalt. Küsi pakkumist termopuidust või kuusepuust saunale üle Eesti.",
     "meta_og_title": "OutDoorSauna | Välisaunad otse tootjalt",
@@ -174,6 +184,16 @@ const translations = {
     "prod9_text": "Toimetame saunad turvaliselt klientideni üle Eesti ning kokkuleppel ka Euroopasse."
   },
   "en": {
+    "product5_badge": "Mobile",
+    "product5_title": "Barrel sauna on a trailer",
+    "product5_text": "A thermowood barrel sauna on a Tiki trailer seats 4–6 people. The bench boards and floor grate are made of alder.",
+    "spec5_1": "📏 Total sauna length 2400 mm · diameter 2200 mm",
+    "spec5_2": "🔥 Harvia M3 wood-burning heater included",
+    "spec5_3": "🛡 Insulated stainless steel chimney",
+    "spec5_4": "🚪 Lockable exterior door",
+    "product5_towing": "A category B driving licence is sufficient, provided the car’s permitted towing weight accommodates the actual weight of the sauna and trailer.",
+    "opt_trailer": "Barrel sauna on a trailer",
+
     "meta_title": "OutDoorSauna | Barrel, oval and square saunas",
     "meta_description": "OutDoorSauna builds barrel, oval and square outdoor saunas directly from the manufacturer. Ask for an offer for a thermowood or spruce sauna across Estonia.",
     "meta_og_title": "OutDoorSauna | Outdoor saunas direct from the manufacturer",
@@ -342,6 +362,16 @@ const translations = {
     "prod9_text": "We deliver saunas safely to clients across Estonia and, by agreement, across Europe."
   },
   "ru": {
+    "product5_badge": "Мобильная",
+    "product5_title": "Баня-бочка на прицепе",
+    "product5_text": "Баня-бочка из термодревесины на прицепе Tiki вмещает 4–6 человек. Доски полков и решётка пола изготовлены из ольхи.",
+    "spec5_1": "📏 Общая длина бани 2400 мм · диаметр 2200 мм",
+    "spec5_2": "🔥 Дровяная печь Harvia M3 в комплекте",
+    "spec5_3": "🛡 Утеплённый дымоход из нержавеющей стали",
+    "spec5_4": "🚪 Запираемая входная дверь",
+    "product5_towing": "Для буксировки достаточно прав категории B, если допустимая буксируемая масса автомобиля соответствует фактической массе бани и прицепа.",
+    "opt_trailer": "Баня-бочка на прицепе",
+
     "meta_title": "OutDoorSauna | Бани-бочки, овальные и прямоугольные бани",
     "meta_description": "OutDoorSauna изготавливает бани-бочки, овальные и прямоугольные уличные бани напрямую от производителя. Запросите предложение на баню из термодревесины или ели по всей Эстонии.",
     "meta_og_title": "OutDoorSauna | Уличные бани напрямую от производителя",
@@ -510,6 +540,16 @@ const translations = {
     "prod9_text": "Мы безопасно доставляем бани клиентам по всей Эстонии и по договоренности также в Европу."
   },
   "sv": {
+    "product5_badge": "Mobil",
+    "product5_title": "Tunnbastu på släp",
+    "product5_text": "En tunnbastu i termoträ på ett Tiki-släp rymmer 4–6 personer. Lavbrädorna och golvgallret är av al.",
+    "spec5_1": "📏 Bastuns totallängd 2400 mm · diameter 2200 mm",
+    "spec5_2": "🔥 Vedeldat Harvia M3-aggregat ingår",
+    "spec5_3": "🛡 Isolerad skorsten i rostfritt stål",
+    "spec5_4": "🚪 Låsbar ytterdörr",
+    "product5_towing": "B-körkort räcker för transport, förutsatt att bilens tillåtna släpvagnsvikt är tillräcklig för bastuns och släpets faktiska vikt.",
+    "opt_trailer": "Tunnbastu på släp",
+
     "meta_title": "OutDoorSauna | Tunn-, oval- och fyrkantiga bastur",
     "meta_description": "OutDoorSauna tillverkar tunn-, oval- och fyrkantiga utomhusbastur direkt från tillverkaren. Be om offert på en bastu i thermoträ eller gran i hela Estland.",
     "meta_og_title": "OutDoorSauna | Utomhusbastur direkt från tillverkaren",
@@ -678,6 +718,16 @@ const translations = {
     "prod9_text": "Vi levererar bastur säkert till kunder i hela Estland och enligt överenskommelse även till Europa."
   },
   "fi": {
+    "product5_badge": "Siirrettävä",
+    "product5_title": "Tynnyrisauna perävaunussa",
+    "product5_text": "Lämpöpuusta valmistettu tynnyrisauna Tiki-perävaunussa sopii 4–6 hengelle. Laudelaudat ja lattiaritilä ovat leppää.",
+    "spec5_1": "📏 Saunan kokonaispituus 2400 mm · halkaisija 2200 mm",
+    "spec5_2": "🔥 Mukana Harvia M3 -puukiuas",
+    "spec5_3": "🛡 Eristetty ruostumattomasta teräksestä valmistettu savupiippu",
+    "spec5_4": "🚪 Lukittava ulko-ovi",
+    "product5_towing": "Kuljetukseen riittää B-ajokortti, kun auton sallittu perävaunumassa riittää saunan ja perävaunun todelliselle massalle.",
+    "opt_trailer": "Tynnyrisauna perävaunussa",
+
     "meta_title": "OutDoorSauna | Tynnyri-, ovaali- ja suorakulmaiset saunat",
     "meta_description": "OutDoorSauna valmistaa tynnyri-, ovaali- ja suorakulmaisia ulkosaunoja suoraan valmistajalta. Pyydä tarjous lämpöpuu- tai kuusisaunasta koko Viroon.",
     "meta_og_title": "OutDoorSauna | Ulkosaunat suoraan valmistajalta",
