@@ -6,6 +6,10 @@
 
 const translations = {
   "et": {
+    "more_info": "Lisainfo",
+    "back_to_models": "Tagasi valikusse",
+    "model_information": "Mudeli lisainfo",
+    "model_information_text": "Sauna mõõdud ja varustus on toodud ülal. Küsi pakkumist, et arutada sobivat lahendust ja lisavõimalusi.",
     "product5_badge": "Saun ratastel",
     "product5_title": "Haagisel torusaun",
     "product5_text": "Termopuidust torusaun Tiki haagisel mahutab 4–6 inimest. Lavalauad ja põrandarest on lepast.",
@@ -185,6 +189,10 @@ const translations = {
     "prod9_text": "Toimetame saunad turvaliselt klientideni üle Eesti ning kokkuleppel ka Euroopasse."
   },
   "en": {
+    "more_info": "More information",
+    "back_to_models": "Back to models",
+    "model_information": "Model details",
+    "model_information_text": "Sauna dimensions and equipment are listed above. Request a quote to discuss your preferred configuration and additional options.",
     "product5_badge": "Sauna on wheels",
     "product5_title": "Barrel sauna on a trailer",
     "product5_text": "A thermowood barrel sauna on a Tiki trailer seats 4–6 people. The bench boards and floor grate are made of alder.",
@@ -364,6 +372,10 @@ const translations = {
     "prod9_text": "We deliver saunas safely to clients across Estonia and, by agreement, across Europe."
   },
   "ru": {
+    "more_info": "Подробнее",
+    "back_to_models": "Назад к моделям",
+    "model_information": "Информация о модели",
+    "model_information_text": "Размеры и оснащение бани указаны выше. Запросите предложение, чтобы обсудить подходящее решение и дополнительные возможности.",
     "product5_badge": "Баня на колёсах",
     "product5_title": "Баня-бочка на прицепе",
     "product5_text": "Баня-бочка из термодревесины на прицепе Tiki вмещает 4–6 человек. Доски полков и решётка пола изготовлены из ольхи.",
@@ -543,6 +555,10 @@ const translations = {
     "prod9_text": "Мы безопасно доставляем бани клиентам по всей Эстонии и по договоренности также в Европу."
   },
   "sv": {
+    "more_info": "Mer information",
+    "back_to_models": "Tillbaka till modellerna",
+    "model_information": "Modellinformation",
+    "model_information_text": "Bastuns mått och utrustning finns ovan. Begär en offert för att diskutera önskad lösning och tillval.",
     "product5_badge": "Bastu på hjul",
     "product5_title": "Tunnbastu på släp",
     "product5_text": "En tunnbastu i termoträ på ett Tiki-släp rymmer 4–6 personer. Lavbrädorna och golvgallret är av al.",
@@ -722,6 +738,10 @@ const translations = {
     "prod9_text": "Vi levererar bastur säkert till kunder i hela Estland och enligt överenskommelse även till Europa."
   },
   "fi": {
+    "more_info": "Lisätietoja",
+    "back_to_models": "Takaisin malleihin",
+    "model_information": "Mallin lisätiedot",
+    "model_information_text": "Saunan mitat ja varusteet on esitetty yllä. Pyydä tarjous keskustellaksesi sopivasta ratkaisusta ja lisävarusteista.",
     "product5_badge": "Sauna pyörillä",
     "product5_title": "Tynnyrisauna perävaunussa",
     "product5_text": "Lämpöpuusta valmistettu tynnyrisauna Tiki-perävaunussa sopii 4–6 hengelle. Laudelaudat ja lattiaritilä ovat leppää.",
@@ -911,7 +931,7 @@ function t(key){
 function showPage(id){
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
   document.getElementById(id).classList.add('active');
-  document.querySelectorAll('.nav-link').forEach(b=>b.classList.toggle('active', b.dataset.page===id));
+  document.querySelectorAll('.nav-link').forEach(b=>b.classList.toggle('active', b.dataset.page===(id.startsWith('model-') ? 'products' : id)));
   document.getElementById('mainNav').classList.remove('open');
   const langMenu = document.getElementById('langMenu');
   if(langMenu) langMenu.classList.remove('open');
@@ -1320,3 +1340,19 @@ window.addEventListener('DOMContentLoaded', function(){
     select.addEventListener('change', function(){ setLanguage(this.value); });
   }
 });
+
+function selectModelImage(model, index){
+  const carousel = document.querySelector('#model-' + model + ' .product-carousel');
+  const imageCount = carousel.dataset.images.split('|').length;
+  // Reset the existing carousel through its own controls so the lightbox stays in sync.
+  const firstImage = carousel.dataset.images.split('|')[0];
+  for(let step = 0; step < imageCount && carousel.querySelector('img').getAttribute('src') !== firstImage; step++) carousel.querySelector('.next').click();
+  for(let step = 0; step < index; step++) carousel.querySelector('.next').click();
+}
+function askModelOffer(model){
+  const keys = {'2toru':'opt_oval','ovaal':'opt_square','terass':'product3_title','1toru':'opt_barrel','haagisel':'opt_trailer'};
+  const select = document.querySelector('select[name="model"]');
+  const option = select.querySelector('[data-i18n="' + keys[model] + '"]');
+  if(option) select.selectedIndex = Array.from(select.options).indexOf(option);
+  showPage('contact');
+}

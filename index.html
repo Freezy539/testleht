@@ -23,7 +23,7 @@
 <meta content="https://outdoorsauna.ee/assets/ovaal/ovaal1.webp" property="og:image"/>
 <link href="https://outdoorsauna.ee/" rel="canonical"/>
 <title data-i18n="meta_title">OutDoorSauna | Toru-, ovaal- ja kandilised saunad</title>
-<link href="style.css?v=20261014-trailer-3" rel="stylesheet"/>
+<link href="style.css?v=20261014-model-details" rel="stylesheet"/>
 <link rel="preload" as="image" href="assets/ovaalsaun-valmis.webp" fetchpriority="high"/>
 <link rel="icon" href="assets/favicon.ico">
 </head>
@@ -144,7 +144,8 @@
 <span data-i18n="spec1_4">🚪 Lukustatav välisuks</span>
 </div>
 <div class="price">4500€ <span class="vat" data-i18n="vat">+ KM</span></div>
-<button class="btn primary" data-i18n="ask_offer" onclick="showPage('contact')">Küsi pakkumist</button>
+<div class="product-actions"><button class="btn model-info-button" type="button" data-i18n="more_info" onclick="showPage('model-2toru')">Lisainfo</button>
+<button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('2toru')">Küsi pakkumist</button></div>
 </div>
 </article>
 <article class="product-card">
@@ -164,7 +165,8 @@
 <span data-i18n="spec2_4">🌲 Kuusepuust või termopuidust</span>
 </div>
 <div class="price">4600€ <span class="vat" data-i18n="vat">+ KM</span></div>
-<button class="btn primary" data-i18n="ask_offer" onclick="showPage('contact')">Küsi pakkumist</button>
+<div class="product-actions"><button class="btn model-info-button" type="button" data-i18n="more_info" onclick="showPage('model-ovaal')">Lisainfo</button>
+<button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('ovaal')">Küsi pakkumist</button></div>
 </div>
 </article>
 <article class="product-card">
@@ -184,7 +186,8 @@
 <span data-i18n="spec3_4">📏 2,5 m × 2,1 m</span>
 </div>
 <div class="price">3300–3400€ <span class="vat" data-i18n="vat">+ KM</span></div>
-<button class="btn primary" data-i18n="ask_offer" onclick="showPage('contact')">Küsi pakkumist</button>
+<div class="product-actions"><button class="btn model-info-button" type="button" data-i18n="more_info" onclick="showPage('model-terass')">Lisainfo</button>
+<button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('terass')">Küsi pakkumist</button></div>
 </div>
 </article>
 <article class="product-card">
@@ -204,7 +207,8 @@
 <span data-i18n="spec4_4">📐 2,1 m x 2 m</span>
 </div>
 <div class="price">3000€ <span class="vat" data-i18n="vat">+ KM</span></div>
-<button class="btn primary" data-i18n="ask_offer" onclick="showPage('contact')">Küsi pakkumist</button>
+<div class="product-actions"><button class="btn model-info-button" type="button" data-i18n="more_info" onclick="showPage('model-1toru')">Lisainfo</button>
+<button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('1toru')">Küsi pakkumist</button></div>
 </div>
 </article>
 <article class="product-card">
@@ -224,7 +228,8 @@
 <span data-i18n="spec5_4">📏 2,4 m × 2,2 m</span>
 </div>
 <div class="price">4900€ <span class="vat" data-i18n="vat">+ KM</span></div>
-<button class="btn primary" data-i18n="ask_offer" onclick="showPage('contact')">Küsi pakkumist</button>
+<div class="product-actions"><button class="btn model-info-button" type="button" data-i18n="more_info" onclick="showPage('model-haagisel')">Lisainfo</button>
+<button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('haagisel')">Küsi pakkumist</button></div>
 </div>
 </article>
 </div>
@@ -398,6 +403,7 @@
 <option data-i18n="opt_oval">2-ruumiline torusaun</option>
 <option data-i18n="opt_square">2-ruumiline ovaalsaun</option>
 <option data-i18n="opt_trailer">Haagisel torusaun</option>
+<option data-i18n="product3_title">Terrassiga torusaun</option>
 <option data-i18n="opt_custom">Eritellimus</option>
 <option data-i18n="opt_other">Muu</option>
 </select>
@@ -424,6 +430,180 @@
 </form>
 </div>
 </section>
+<section class="page model-page" id="model-2toru">
+<div class="model-shell">
+<button class="model-back" type="button" onclick="showPage('products')">← <span data-i18n="back_to_models">Tagasi valikusse</span></button>
+<div class="model-heading"><h1 data-i18n="product1_title">2-ruumiline torusaun</h1></div>
+<div class="model-layout">
+<div class="model-photos"><div class="product-carousel" data-alt="2-ruumiline torusaun" data-images="assets/2toru/2toru1.webp|assets/2toru/2toru2.webp|assets/2toru/2toru3.webp|assets/2toru/2toru4.webp|assets/2toru/2toru5.webp|assets/2toru/2toru6.webp|assets/2toru/2toru7.webp|assets/2toru/2toru8.webp|assets/2toru/2toru9.webp|assets/2toru/2toru10.webp">
+<button aria-label="Eelmine pilt" class="carousel-arrow prev" data-i18n-aria-label="prev_image" type="button">‹</button>
+<img alt="2-ruumiline torusaun" class="product-main-img" loading="lazy" src="assets/2toru/2toru1.webp"/>
+<button aria-label="Järgmine pilt" class="carousel-arrow next" data-i18n-aria-label="next_image" type="button">›</button>
+</div><div class="model-thumbnails"><button type="button" onclick="selectModelImage('2toru', 0)" aria-label="1"><img src="assets/2toru/2toru1.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('2toru', 1)" aria-label="2"><img src="assets/2toru/2toru2.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('2toru', 2)" aria-label="3"><img src="assets/2toru/2toru3.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('2toru', 3)" aria-label="4"><img src="assets/2toru/2toru4.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('2toru', 4)" aria-label="5"><img src="assets/2toru/2toru5.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('2toru', 5)" aria-label="6"><img src="assets/2toru/2toru6.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('2toru', 6)" aria-label="7"><img src="assets/2toru/2toru7.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('2toru', 7)" aria-label="8"><img src="assets/2toru/2toru8.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('2toru', 8)" aria-label="9"><img src="assets/2toru/2toru9.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('2toru', 9)" aria-label="10"><img src="assets/2toru/2toru10.webp" loading="lazy" alt=""/></button></div></div>
+<div class="model-summary">
+<div class="badge" data-i18n="product1_badge">Populaarne</div>
+
+<p data-i18n="product1_text">Ruumikas torusaun praktilise eesruumi ja leiliruumiga. Sobib hästi perele või sõprade seltskonnale.</p>
+<div class="specs">
+<span data-i18n="spec1_1">📏 3.8 m × 2.1 m</span>
+<span data-i18n="spec1_2">🔥 Keris Harvia M3</span>
+<span data-i18n="spec_water">💧 35L veepaak</span>
+<span data-i18n="spec1_4">🚪 Lukustatav välisuks</span>
+</div>
+<div class="price">4500€ <span class="vat" data-i18n="vat">+ KM</span></div>
+
+<button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('2toru')">Küsi pakkumist</button></div>
+</div>
+<div class="model-information"><h2 data-i18n="model_information">Mudeli lisainfo</h2><p data-i18n="model_information_text">Sauna mõõdud ja varustus on toodud ülal. Küsi pakkumist, et arutada sobivat lahendust ja lisavõimalusi.</p></div>
+</div>
+</section>
+<section class="page model-page" id="model-ovaal">
+<div class="model-shell">
+<button class="model-back" type="button" onclick="showPage('products')">← <span data-i18n="back_to_models">Tagasi valikusse</span></button>
+<div class="model-heading"><h1 data-i18n="product2_title">2-ruumiline ovaalsaun</h1></div>
+<div class="model-layout">
+<div class="model-photos"><div class="product-carousel" data-alt="2-ruumiline ovaalsaun" data-images="assets/ovaal/ovaal1.webp|assets/ovaal/ovaal2.webp|assets/ovaal/ovaal3.webp|assets/ovaal/ovaal4.webp|assets/ovaal/ovaal5.webp|assets/ovaal/ovaal6.webp|assets/ovaal/ovaal7.webp|assets/ovaal/ovaal8.webp|assets/ovaal/ovaal9.webp|assets/ovaal/ovaal10.webp">
+<button aria-label="Eelmine pilt" class="carousel-arrow prev" data-i18n-aria-label="prev_image" type="button">‹</button>
+<img alt="2-ruumiline ovaalsaun" loading="lazy" src="assets/ovaal/ovaal1.webp"/>
+<button aria-label="Järgmine pilt" class="carousel-arrow next" data-i18n-aria-label="next_image" type="button">›</button>
+</div><div class="model-thumbnails"><button type="button" onclick="selectModelImage('ovaal', 0)" aria-label="1"><img src="assets/ovaal/ovaal1.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('ovaal', 1)" aria-label="2"><img src="assets/ovaal/ovaal2.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('ovaal', 2)" aria-label="3"><img src="assets/ovaal/ovaal3.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('ovaal', 3)" aria-label="4"><img src="assets/ovaal/ovaal4.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('ovaal', 4)" aria-label="5"><img src="assets/ovaal/ovaal5.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('ovaal', 5)" aria-label="6"><img src="assets/ovaal/ovaal6.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('ovaal', 6)" aria-label="7"><img src="assets/ovaal/ovaal7.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('ovaal', 7)" aria-label="8"><img src="assets/ovaal/ovaal8.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('ovaal', 8)" aria-label="9"><img src="assets/ovaal/ovaal9.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('ovaal', 9)" aria-label="10"><img src="assets/ovaal/ovaal10.webp" loading="lazy" alt=""/></button></div></div>
+<div class="model-summary">
+<div class="badge" data-i18n="product2_badge">Väga ruumikas</div>
+
+<p data-i18n="product2_text">Hea disainiga ovaalsaun, millel on praktiline eesruum ja mugav leiliruum.</p>
+<div class="specs">
+<span data-i18n="spec2_1">📏 4 m × 2.4 m</span>
+<span data-i18n="spec2_2">🪵 Lepast lavad</span>
+<span data-i18n="spec_water">💧 35L veepaak</span>
+<span data-i18n="spec2_4">🌲 Kuusepuust või termopuidust</span>
+</div>
+<div class="price">4600€ <span class="vat" data-i18n="vat">+ KM</span></div>
+
+<button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('ovaal')">Küsi pakkumist</button></div>
+</div>
+<div class="model-information"><h2 data-i18n="model_information">Mudeli lisainfo</h2><p data-i18n="model_information_text">Sauna mõõdud ja varustus on toodud ülal. Küsi pakkumist, et arutada sobivat lahendust ja lisavõimalusi.</p></div>
+</div>
+</section>
+<section class="page model-page" id="model-terass">
+<div class="model-shell">
+<button class="model-back" type="button" onclick="showPage('products')">← <span data-i18n="back_to_models">Tagasi valikusse</span></button>
+<div class="model-heading"><h1 data-i18n="product3_title">Terrassiga torusaun</h1></div>
+<div class="model-layout">
+<div class="model-photos"><div class="product-carousel" data-alt="Terrassiga torusaun" data-images="assets/terass/terass1.webp|assets/terass/terass2.webp|assets/terass/terass3.webp|assets/terass/terass4.webp|assets/terass/terass5.webp">
+<button aria-label="Eelmine pilt" class="carousel-arrow prev" data-i18n-aria-label="prev_image" type="button">‹</button>
+<img alt="Terrassiga torusaun" loading="lazy" src="assets/terass/terass1.webp"/>
+<button aria-label="Järgmine pilt" class="carousel-arrow next" data-i18n-aria-label="next_image" type="button">›</button>
+</div><div class="model-thumbnails"><button type="button" onclick="selectModelImage('terass', 0)" aria-label="1"><img src="assets/terass/terass1.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('terass', 1)" aria-label="2"><img src="assets/terass/terass2.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('terass', 2)" aria-label="3"><img src="assets/terass/terass3.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('terass', 3)" aria-label="4"><img src="assets/terass/terass4.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('terass', 4)" aria-label="5"><img src="assets/terass/terass5.webp" loading="lazy" alt=""/></button></div></div>
+<div class="model-summary">
+<div class="badge" data-i18n="product3_badge">Kompaktne</div>
+
+<p data-i18n="product3_text">Kompaktne termopuidust torusaun väiksemasse aeda, veekogu äärde või haagisele paigaldamiseks.</p>
+<div class="specs">
+<span data-i18n="spec3_1">🏕 Sobib ideaalselt haagisele</span>
+<span data-i18n="spec3_2">🪵 Valmistatud termopuidust</span>
+<span data-i18n="spec3_3">🔥 Võimalik valida seest või väljast köetav keris</span>
+<span data-i18n="spec3_4">📏 2,5 m × 2,1 m</span>
+</div>
+<div class="price">3300–3400€ <span class="vat" data-i18n="vat">+ KM</span></div>
+
+<button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('terass')">Küsi pakkumist</button></div>
+</div>
+<div class="model-information"><h2 data-i18n="model_information">Mudeli lisainfo</h2><p data-i18n="model_information_text">Sauna mõõdud ja varustus on toodud ülal. Küsi pakkumist, et arutada sobivat lahendust ja lisavõimalusi.</p></div>
+</div>
+</section>
+<section class="page model-page" id="model-1toru">
+<div class="model-shell">
+<button class="model-back" type="button" onclick="showPage('products')">← <span data-i18n="back_to_models">Tagasi valikusse</span></button>
+<div class="model-heading"><h1 data-i18n="product4_title">1-ruumiline torusaun</h1></div>
+<div class="model-layout">
+<div class="model-photos"><div class="product-carousel" data-alt="1-ruumiline torusaun" data-images="assets/1toru/1toru1.webp|assets/1toru/1toru2.webp|assets/1toru/1toru3.webp|assets/1toru/1toru4.webp|assets/1toru/1toru5.webp|assets/1toru/1toru6.webp|assets/1toru/1toru7.webp|assets/1toru/1toru8.webp|assets/1toru/1toru9.webp|assets/1toru/1toru10.webp|assets/1toru/1toru11.webp">
+<button aria-label="Eelmine pilt" class="carousel-arrow prev" data-i18n-aria-label="prev_image" type="button">‹</button>
+<img alt="1-ruumiline torusaun" loading="lazy" src="assets/1toru/1toru1.webp"/>
+<button aria-label="Järgmine pilt" class="carousel-arrow next" data-i18n-aria-label="next_image" type="button">›</button>
+</div><div class="model-thumbnails"><button type="button" onclick="selectModelImage('1toru', 0)" aria-label="1"><img src="assets/1toru/1toru1.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('1toru', 1)" aria-label="2"><img src="assets/1toru/1toru2.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('1toru', 2)" aria-label="3"><img src="assets/1toru/1toru3.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('1toru', 3)" aria-label="4"><img src="assets/1toru/1toru4.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('1toru', 4)" aria-label="5"><img src="assets/1toru/1toru5.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('1toru', 5)" aria-label="6"><img src="assets/1toru/1toru6.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('1toru', 6)" aria-label="7"><img src="assets/1toru/1toru7.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('1toru', 7)" aria-label="8"><img src="assets/1toru/1toru8.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('1toru', 8)" aria-label="9"><img src="assets/1toru/1toru9.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('1toru', 9)" aria-label="10"><img src="assets/1toru/1toru10.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('1toru', 10)" aria-label="11"><img src="assets/1toru/1toru11.webp" loading="lazy" alt=""/></button></div></div>
+<div class="model-summary">
+<div class="badge" data-i18n="product4_badge">Minimalistlik</div>
+
+<p data-i18n="product4_text">Kompaktne 1-ruumiline torusaun neile, kes soovivad lihtsat ja praktilist lahendust koduhoovi, suvilasse või veekogu äärde.</p>
+<div class="specs">
+<span data-i18n="spec4_1">🚚 Katusekatteks kvaliteetne Icopal</span>
+<span data-i18n="spec4_2">🎨 Soovi korral saab ka enda valitud mõõdus</span>
+<span data-i18n="spec4_3">⚡ Pingutusvitsad on roostevabast terasest</span>
+<span data-i18n="spec4_4">📐 2,1 m x 2 m</span>
+</div>
+<div class="price">3000€ <span class="vat" data-i18n="vat">+ KM</span></div>
+
+<button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('1toru')">Küsi pakkumist</button></div>
+</div>
+<div class="model-information"><h2 data-i18n="model_information">Mudeli lisainfo</h2><p data-i18n="model_information_text">Sauna mõõdud ja varustus on toodud ülal. Küsi pakkumist, et arutada sobivat lahendust ja lisavõimalusi.</p></div>
+</div>
+</section>
+<section class="page model-page" id="model-haagisel">
+<div class="model-shell">
+<button class="model-back" type="button" onclick="showPage('products')">← <span data-i18n="back_to_models">Tagasi valikusse</span></button>
+<div class="model-heading"><h1 data-i18n="product5_title">Haagisel torusaun</h1></div>
+<div class="model-layout">
+<div class="model-photos"><div class="product-carousel" data-alt="Haagisel torusaun" data-images="assets/haagisel/haagisel1.webp|assets/haagisel/haagisel2.webp|assets/haagisel/haagisel3.webp|assets/haagisel/haagisel4.webp|assets/haagisel/haagisel5.webp|assets/haagisel/haagisel6.webp|assets/haagisel/haagisel7.webp|assets/haagisel/haagisel8.webp">
+<button aria-label="Eelmine pilt" class="carousel-arrow prev" data-i18n-aria-label="prev_image" type="button">‹</button>
+<img alt="Termopuidust torusaun Tiki haagisel" loading="lazy" src="assets/haagisel/haagisel1.webp"/>
+<button aria-label="Järgmine pilt" class="carousel-arrow next" data-i18n-aria-label="next_image" type="button">›</button>
+</div><div class="model-thumbnails"><button type="button" onclick="selectModelImage('haagisel', 0)" aria-label="1"><img src="assets/haagisel/haagisel1.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('haagisel', 1)" aria-label="2"><img src="assets/haagisel/haagisel2.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('haagisel', 2)" aria-label="3"><img src="assets/haagisel/haagisel3.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('haagisel', 3)" aria-label="4"><img src="assets/haagisel/haagisel4.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('haagisel', 4)" aria-label="5"><img src="assets/haagisel/haagisel5.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('haagisel', 5)" aria-label="6"><img src="assets/haagisel/haagisel6.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('haagisel', 6)" aria-label="7"><img src="assets/haagisel/haagisel7.webp" loading="lazy" alt=""/></button>
+<button type="button" onclick="selectModelImage('haagisel', 7)" aria-label="8"><img src="assets/haagisel/haagisel8.webp" loading="lazy" alt=""/></button></div></div>
+<div class="model-summary">
+<div class="badge" data-i18n="product5_badge">Saun ratastel</div>
+
+<p data-i18n="product5_text">Termopuidust torusaun Tiki haagisel mahutab 4–6 inimest. Lavalauad ja põrandarest on lepast.</p>
+<div class="specs">
+<span data-i18n="spec5_1">🌲 Vastupidav termopuit</span>
+<span data-i18n="spec5_2">👥 Mahutab 4–6 inimest</span>
+<span data-i18n="spec5_3">🔥 Harvia M3 puukeris</span>
+<span data-i18n="spec5_4">📏 2,4 m × 2,2 m</span>
+</div>
+<div class="price">4900€ <span class="vat" data-i18n="vat">+ KM</span></div>
+
+<button class="btn primary" data-i18n="ask_offer" onclick="askModelOffer('haagisel')">Küsi pakkumist</button></div>
+</div>
+<div class="model-information"><h2 data-i18n="model_information">Mudeli lisainfo</h2><p data-i18n="model_information_text">Sauna mõõdud ja varustus on toodud ülal. Küsi pakkumist, et arutada sobivat lahendust ja lisavõimalusi.</p></div>
+</div>
+</section>
 </main>
 <footer class="footer">
 <p data-i18n="footer_text">© 2026 OutDoorSauna. Kõik õigused kaitstud.</p>
@@ -436,6 +616,6 @@
 <div class="lightbox-thumbs"></div>
 </div>
 <div class="toast" id="toast"></div>
-<script src="script.js?v=20261014-trailer-5" defer></script>
+<script src="script.js?v=20261014-model-details" defer></script>
 </body>
 </html>
