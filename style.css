@@ -543,26 +543,43 @@ nav {
 .model-shell {
   max-width:1400px;
   margin:auto;
-  padding:32px 6% 60px;
+  padding:28px 6% 70px;
 }
 .model-back {
   background:none;
   border:0;
   color:var(--brown);
   padding:10px 0;
-  margin-bottom:18px;
+  margin-bottom:26px;
   font-weight:700;
-}
-.model-heading h1 {
-  font-size:clamp(28px,4vw,44px);
-  margin-bottom:24px;
 }
 .model-layout {
   display:grid;
-  grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);
-  gap:28px;
+  grid-template-columns:minmax(0,2.2fr) minmax(260px,1fr);
+  grid-template-areas:"intro offer" "photos offer";
+  column-gap:40px;
+  row-gap:30px;
   align-items:start;
 }
+.model-intro {grid-area:intro}
+.model-intro h1 {
+  font-size:clamp(28px,3.5vw,44px);
+  line-height:1.15;
+  margin-bottom:18px;
+}
+.model-intro p {color:var(--muted);line-height:1.75}
+.model-intro .specs {
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin:22px 0 0;
+}
+.model-intro .specs span {
+  font-size:13px;
+  padding:7px 11px;
+  border-radius:10px;
+}
+.model-photos {grid-area:photos;min-width:0}
 .model-photos .product-carousel {
   height:auto;
   aspect-ratio:4/3;
@@ -591,24 +608,47 @@ nav {
   height:64px;
   object-fit:cover;
 }
-.model-summary,.model-information {
+.model-summary {
+  grid-area:offer;
+  position:sticky;
+  top:110px;
   background:var(--paper);
   border:1px solid var(--line);
+  box-shadow:var(--shadow);
   border-radius:24px;
   padding:28px;
 }
-.model-summary p,.model-information p {
-  color:var(--muted);
-}
+.model-summary h2 {font-size:23px;margin-bottom:14px}
+.model-summary p {color:var(--muted);font-size:15px;line-height:1.75}
+.model-summary .btn {width:100%;text-align:center}
 .model-information {
-  margin-top:28px;
+  display:grid;
+  grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);
+  gap:50px;
+  margin-top:54px;
+  padding-top:34px;
+  border-top:1px solid var(--line);
 }
-.model-information h2 {
-  margin-bottom:12px;
+.model-information h2 {font-size:30px;margin-bottom:16px}
+.model-information p {color:var(--muted);line-height:1.8}
+.model-facts .specs {display:block;margin:0}
+.model-facts .specs span {
+  display:block;
+  background:none;
+  border:0;
+  border-bottom:1px solid var(--line);
+  border-radius:0;
+  padding:13px 0;
+  font-size:15px;
 }
 @media(max-width:768px) {
-  .model-layout {grid-template-columns:1fr}
-  .model-summary,.model-information {padding:20px}
+  .model-layout {
+    grid-template-columns:minmax(0,1fr);
+    grid-template-areas:"intro" "photos" "offer";
+    gap:22px;
+  }
+  .model-summary {position:static;padding:22px}
+  .model-information {grid-template-columns:1fr;gap:24px;margin-top:36px}
   .model-shell {padding-top:18px}
 }
 .details-panel {
