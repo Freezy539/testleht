@@ -1814,44 +1814,44 @@ body.lightbox-active {
 }
 @media(prefers-reduced-motion:reduce){.page,.hero-content{animation:none}.home-model-tile img{transition:none}}
 
-/* Valiku leht: avaramad fotod ja selge ostuinfo. */
-#products .page-head{max-width:1400px;margin:auto;padding:62px 6% 36px}
-#products .page-head h1{font-size:clamp(34px,4.5vw,58px);line-height:1.08;letter-spacing:-1.7px;text-shadow:none;max-width:850px;margin-bottom:18px}
-#products .page-head p{max-width:730px;font-size:18px;line-height:1.75}
-#products .product-grid{max-width:1400px;margin:auto;gap:28px;padding-bottom:38px}
-#products .product-card{display:flex;flex-direction:column;border-radius:24px;box-shadow:0 6px 22px rgba(37,24,14,.045);transition:box-shadow .25s,border-color .25s}
-#products .product-card:hover{transform:none;border-color:#d4ad83;box-shadow:0 14px 36px rgba(37,24,14,.09)}
-#products .product-carousel{height:auto;aspect-ratio:4/3;flex-shrink:0;border-bottom:1px solid var(--line)}
-#products .product-carousel img{width:100%;height:100%;object-fit:contain;transform:none}
-#products .product-carousel .badge{position:absolute;top:18px;left:18px;z-index:2;margin:0;background:var(--paper);color:var(--brown);box-shadow:0 3px 12px rgba(28,19,13,.1);padding:8px 13px;font-size:12px}
-#products .carousel-arrow{width:42px;height:42px;border-radius:50%;background:rgba(28,19,13,.7)}
-#products .product-body{display:flex;flex-direction:column;flex:1;padding:27px}
-#products .product-body h2{font-size:clamp(24px,2.2vw,30px);line-height:1.2;margin-bottom:12px;letter-spacing:-.5px}
-#products .product-body>p{font-size:16px;line-height:1.75;margin-bottom:0}
-#products .specs{gap:9px;margin:22px 0 25px}
-#products .specs>span{font-size:14px;font-weight:700;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px;line-height:1.55}
-#products .product-purchase{margin-top:auto;border-top:1px solid var(--line);padding-top:20px}
-#products .price{margin:0 0 18px;font-size:30px;letter-spacing:-.5px}
-#products .price .vat{font-size:15px;font-weight:700;letter-spacing:0;margin-left:4px}
-#products .product-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-#products .product-actions .btn{padding:13px 15px;font-size:14px}
-#products .details-panel{max-width:1230px;margin:12px auto 0;border-radius:24px;box-shadow:none;background:var(--paper)}
-#products .included-grid span{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:13px 0;font-size:15px;font-weight:600;line-height:1.6}
-@media(min-width:1050px){
-#products .product-card:last-child:nth-child(odd){grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}
-#products .product-card:last-child:nth-child(odd) .product-carousel{height:100%;min-height:440px;aspect-ratio:auto;border-bottom:0;border-right:1px solid var(--line)}
-#products .product-card:last-child:nth-child(odd) .product-body{padding:35px}
-}
+/* Valik: soe puidutoonides paigutus. */
+#products{background:radial-gradient(ellipse at 10% 0%,rgba(199,122,53,.09),transparent 45%),var(--bg)}
+#products .page-head{max-width:1400px;margin:auto;padding:65px 6% 40px}
+#products .page-head h1{font-size:clamp(36px,4.5vw,60px);line-height:1.12;letter-spacing:-1.4px;text-shadow:none;max-width:850px;margin-bottom:18px}
+#products .page-head p{max-width:730px;font-size:18px;line-height:1.8}
+#products .product-grid{max-width:1400px;margin:auto;gap:32px;padding-bottom:48px;grid-template-columns:repeat(2,minmax(0,1fr))}
+#products .product-card{display:flex;flex-direction:column;border-radius:32px;background:var(--paper);border:1px solid var(--line);box-shadow:0 12px 35px rgba(107,59,31,.08);padding:12px;transition:box-shadow .25s}
+#products .product-card:hover{transform:none;box-shadow:0 18px 45px rgba(107,59,31,.13)}
+#products .product-carousel{height:auto;aspect-ratio:4/3;flex-shrink:0;border-radius:23px;background:#f3e5d3}
+#products .product-carousel img{width:100%;height:100%;object-fit:contain;object-position:center;transform:none;background:#f3e5d3}
+#products .carousel-arrow{width:44px;height:44px;border-radius:16px;background:rgba(53,32,18,.8);border:1px solid rgba(255,250,242,.4)}
+#products .product-body{display:flex;flex-direction:column;align-items:stretch;flex:1;padding:24px 18px 18px}
+#products .product-body>.badge{align-self:flex-start;background:#ead7bf;color:var(--brown);font-size:12px;padding:7px 13px;margin-bottom:15px;box-shadow:none}
+#products .product-body h2{font-size:clamp(25px,2.2vw,31px);line-height:1.25;letter-spacing:-.4px;margin-bottom:13px}
+#products .product-body>p{color:var(--muted);font-size:16px;line-height:1.8;margin:0}
+#products .specs{gap:10px;margin:23px 0 25px}
+#products .specs>span{font-size:14px;font-weight:700;line-height:1.65;background:#f3e5d3;border:1px solid #ead2b6;border-radius:15px;padding:12px}
+#products .product-purchase{margin-top:auto;padding-top:5px;border:0}
+#products .price{font-size:31px;margin:0 0 18px;color:var(--wood-dark);letter-spacing:-.5px}
+#products .price .vat{font-size:18px;font-weight:800;letter-spacing:0}
+#products .product-actions{display:flex;flex-wrap:wrap;gap:11px}
+#products .product-actions .btn{font-size:14px;padding:13px 22px;border-radius:999px}
+#products .model-info-button{background:#f3e5d3;border:1px solid #ead2b6;color:var(--brown)}
+#products .model-info-button:hover{background:#ead7bf}
+#products .details-panel{max-width:1230px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:28px;box-shadow:0 12px 35px rgba(107,59,31,.06)}
+#products .included-grid{gap:12px}
+#products .included-grid span{background:#f3e5d3;border:1px solid #ead2b6;border-radius:15px;padding:14px;font-size:15px;font-weight:600;line-height:1.7}
 @media(max-width:768px){
-#products .page-head{padding:38px 6% 24px}
+#products .page-head{padding:38px 6% 28px}
 #products .page-head h1{font-size:36px;letter-spacing:-1px}
 #products .page-head p{font-size:16px}
-#products .product-grid{grid-template-columns:1fr;gap:22px}
-#products .product-body{padding:22px}
-#products .product-carousel img{object-position:center}
-#products .product-carousel .badge{top:14px;left:14px}
+#products .product-grid{grid-template-columns:minmax(0,1fr);gap:26px}
+#products .product-card{padding:9px;border-radius:28px}
+#products .product-carousel{border-radius:20px}
+#products .product-body{padding:20px 14px 16px}
 #products .specs>span{font-size:13px;padding:10px}
-#products .details-panel{margin:12px 6% 0;padding:24px}
+#products .product-actions .btn{flex:1;padding:13px 14px}
+#products .details-panel{margin:0 6%;padding:24px}
 }
-@media(max-width:380px){#products .product-actions{grid-template-columns:1fr}}
+@media(max-width:380px){#products .product-actions{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){#products .product-card{transition:none}}
